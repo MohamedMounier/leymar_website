@@ -1,0 +1,329 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "capabilities": "Capabilities",
+    "products": "Products",
+    "industries": "Industries",
+    "factoryTour": "Factory Tour",
+    "contact": "Contact",
+    "requestQuote": "Request Quote",
+    "language": "العربية"
+  },
+  "hero": {
+    "headline1": "Engineering Flexibility.",
+    "headline2": "Weaving Excellence.",
+    "subtitle": "Premium industrial textile manufacturer trusted by global fashion houses, sportswear leaders, and industrial partners across 50+ countries.",
+    "ctaExplore": "Explore Products",
+    "ctaQuote": "Request a Quote",
+    "cta_primary": "Explore Products",
+    "cta_secondary": "Request a Quote",
+    "scroll": "Scroll to explore"
+  },
+  "products": {
+    "label": "PORTFOLIO",
+    "title": "Our Products",
+    "subtitle": "Eight specialized textile product lines crafted to the highest industrial standards — from intricate jacquard weaves to high-performance elastic systems.",
+    "viewAll": "View All Products",
+    "view_all": "View All Products",
+    "filter_all": "All",
+    "filterTitle": "FILTER",
+    "error": "Failed to load products. Please try again.",
+    "empty": "No products found in this category.",
+    "noResults": "No products match your search.",
+    "featured": "Featured",
+    "specifications": "Specifications",
+    "applications": "Applications",
+    "colors": "Available Colors",
+    "widths": "Available Widths",
+    "search": "Search products...",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Inquiry",
+    "addedToCart": "Added!",
+    "selectColor": "SELECT COLOR",
+    "selectWidth": "SELECT WIDTH",
+    "requestQuote": "Request Quote",
+    "relatedProducts": "RELATED PRODUCTS",
+    "backToProducts": "Back to Products",
+    "productNotFound": "Product not found",
+    "moqHint": "This is a B2B inquiry system. Pricing and availability depend on order quantity, color, and width. Submit an inquiry to receive a personalized quote."
+  },
+  "manufacturing": {
+    "label": "HOW WE WORK",
+    "title": "Manufacturing Process",
+    "subtitle": "From raw yarn to finished product — a six-stage precision process refined over three decades.",
+    "steps": {
+      "yarn": {
+        "title": "Yarn Selection",
+        "description": "Premium raw materials sourced from certified global suppliers, tested for consistency and performance."
+      },
+      "dyeing": {
+        "title": "Dyeing",
+        "description": "State-of-the-art dyeing facilities with precise color matching, OEKO-TEX certified dyes and water-saving processes."
+      },
+      "weaving": {
+        "title": "Weaving",
+        "description": "Advanced loom technology producing consistent, high-quality textiles across all product categories."
+      },
+      "inspection": {
+        "title": "Quality Inspection",
+        "description": "Multi-stage quality control at every production phase, ensuring every meter meets our exacting standards."
+      },
+      "packaging": {
+        "title": "Packaging",
+        "description": "Professional packaging solutions tailored to client specifications and international shipping requirements."
+      },
+      "export": {
+        "title": "Global Export",
+        "description": "Reliable logistics network serving 50+ countries with consistent lead times and full documentation support."
+      }
+    }
+  },
+  "factory": {
+    "label": "IN NUMBERS",
+    "title": "Industrial Scale",
+    "subtitle": "Three decades of manufacturing excellence, continuous investment, and global distribution.",
+    "stats": {
+      "machines": "Machines",
+      "meters": "Meters Annually",
+      "countries": "Countries",
+      "years": "Years Experience"
+    }
+  },
+  "industries": {
+    "label": "SECTORS",
+    "title": "Industries We Serve",
+    "subtitle": "Yelmar textiles power products across six major global industries.",
+    "fashion": {
+      "title": "Fashion",
+      "description": "High-end elastics and trims for luxury fashion and ready-to-wear collections."
+    },
+    "sports": {
+      "title": "Sports & Activewear",
+      "description": "Performance elastics engineered for maximum durability and comfort in motion."
+    },
+    "medical": {
+      "title": "Medical & Healthcare",
+      "description": "Certified medical-grade textiles meeting strict international safety and hygiene standards."
+    },
+    "military": {
+      "title": "Military & Tactical",
+      "description": "High-strength webbing and tapes for defense, tactical gear, and safety equipment."
+    },
+    "furniture": {
+      "title": "Furniture & Upholstery",
+      "description": "Durable woven components for seating, upholstery, and interior applications."
+    },
+    "automotive": {
+      "title": "Automotive",
+      "description": "Precision textiles for automotive interiors, safety systems, and trim components."
+    }
+  },
+  "sustainability": {
+    "label": "RESPONSIBILITY",
+    "title": "Committed to Sustainability",
+    "subtitle": "Manufacturing excellence and environmental responsibility are not opposing forces at Yelmar.",
+    "body": "At Yelmar, we believe that industrial excellence and environmental stewardship go hand in hand. Our sustainability initiatives span our entire production chain — from raw material sourcing to final delivery.",
+    "cert": "OEKO-TEX Certified Production",
+    "goal": "Carbon Neutral by 2030",
+    "water": {
+      "title": "Water Conservation",
+      "value": "40%",
+      "description": "Reduction in water usage through closed-loop dyeing systems"
+    },
+    "recycled": {
+      "title": "Recycled Materials",
+      "value": "30%",
+      "description": "Of production uses recycled or sustainable raw materials"
+    },
+    "energy": {
+      "title": "Energy Efficiency",
+      "value": "25%",
+      "description": "Energy reduction through renewable sources and process optimization"
+    }
+  },
+  "quality": {
+    "label": "CERTIFICATIONS",
+    "title": "Quality Assurance",
+    "subtitle": "Internationally recognized certifications that demonstrate our commitment to safety, quality, and sustainability.",
+    "viewDetails": "View Details",
+    "certifiedBy": "Certified By",
+    "oeko": {
+      "title": "OEKO-TEX Standard 100",
+      "description": "Every component tested for harmful substances. Safe for skin contact across all age groups."
+    },
+    "iso": {
+      "title": "ISO 9001:2015",
+      "description": "Certified quality management system ensuring consistent processes and continuous improvement."
+    },
+    "grs": {
+      "title": "Global Recycled Standard",
+      "description": "Certified use of recycled input materials with verified social and environmental practices."
+    },
+    "custom": {
+      "title": "Client Certifications",
+      "description": "Custom compliance packages available for brands with specific regulatory requirements."
+    }
+  },
+  "globalReach": {
+    "label": "50+ COUNTRIES",
+    "title": "Global Reach",
+    "subtitle": "From Istanbul, we supply textile partners across Europe, the Americas, Asia, and the Middle East.",
+    "countries": "Countries Served",
+    "europe": "Europe",
+    "americas": "Americas",
+    "asia": "Asia Pacific",
+    "middleEast": "Middle East & Africa"
+  },
+  "factoryTour": {
+    "hero": {
+      "label": "INSIDE YELMAR",
+      "title": "The Factory",
+      "subtitle": "Step inside our 15,000m² state-of-the-art facility in Istanbul, where precision engineering meets industrial scale.",
+      "badge1": "Istanbul, Turkey",
+      "badge2": "15,000m² Facility",
+      "badge3": "Est. 1994"
+    },
+    "areas": {
+      "label": "THE FACILITY",
+      "title": "Factory Areas",
+      "subtitle": "Every square meter of our facility is engineered for precision, quality, and efficiency.",
+      "yarn": {
+        "title": "Yarn Storage & Preparation",
+        "desc": "Climate-controlled warehouse housing thousands of yarn varieties from global certified suppliers."
+      },
+      "dyeing": {
+        "title": "Dyeing & Color Lab",
+        "desc": "State-of-the-art dyeing systems with OEKO-TEX certified dyes and precise spectrophotometric color matching."
+      },
+      "weaving": {
+        "title": "Weaving Hall",
+        "desc": "150+ precision looms running 24/7, producing consistent textiles across all product categories."
+      },
+      "qc": {
+        "title": "Quality Control Center",
+        "desc": "Multi-stage inspection at every production phase, ensuring every meter meets our exacting standards."
+      },
+      "finishing": {
+        "title": "Finishing & Packaging",
+        "desc": "Professional finishing and packaging tailored to client specifications and international shipping requirements."
+      },
+      "logistics": {
+        "title": "Export & Logistics",
+        "desc": "Fully integrated logistics hub for reliable global delivery to 50+ countries with consistent lead times."
+      }
+    },
+    "process": {
+      "label": "THE PROCESS",
+      "title": "Production Flow"
+    },
+    "certs": {
+      "label": "CERTIFIED EXCELLENCE",
+      "title": "Quality Certifications",
+      "subtitle": "Every process independently certified to the highest international standards for safety, quality, and sustainability."
+    },
+    "cta": {
+      "label": "VISIT US",
+      "title": "Schedule a Factory Visit",
+      "subtitle": "We welcome global partners and clients to experience the Yelmar facility firsthand. Our team will host a full facility tour, product demonstration, and technical consultation.",
+      "button": "Request a Visit"
+    }
+  },
+  "clients": {
+    "label": "TRUSTED BY",
+    "title": "Global Brand Partners"
+  },
+  "resources": {
+    "label": "KNOWLEDGE",
+    "title": "Resources & Insights",
+    "subtitle": "Technical guides, design inspiration, and industry intelligence from the Yelmar team.",
+    "readMore": "Read Article",
+    "readArticle": "Read Article"
+  },
+  "contact": {
+    "label": "GET IN TOUCH",
+    "title": "Start a Conversation",
+    "subtitle": "Whether you need standard products or a fully custom solution, our team is ready to help.",
+    "tagline": "Luxury textile manufacturing, precision engineered.",
+    "whatsapp": "Chat on WhatsApp",
+    "sendEmail": "Send Email",
+    "email": "info@yelmar.com",
+    "phone": "+90 500 000 0000",
+    "address": "Istanbul, Turkey",
+    "emailLabel": "Email Us",
+    "phoneLabel": "Call Us",
+    "whatsappLabel": "WhatsApp",
+    "addressLabel": "Visit Us",
+    "form": {
+      "label": "SEND A REQUEST"
+    },
+    "hours": {
+      "label": "WORKING HOURS",
+      "title": "Business Hours",
+      "weekdays": "Mon – Fri: 08:00 – 18:00 (GMT+3)",
+      "weekends": "Saturday: 09:00 – 14:00 (GMT+3)",
+      "closed": "Sunday: Closed"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Common Questions",
+      "q1": "What is the minimum order quantity?",
+      "a1": "MOQ varies by product — typically 200m for webbing, 500m for elastic and jacquard, and 1000m for standard elastic bands. Custom products are negotiated per project.",
+      "q2": "How long does production take?",
+      "a2": "Standard products ship in 2–4 weeks. Custom jacquard and specialty items require 4–8 weeks. Rush orders are available — contact us to discuss.",
+      "q3": "Do you provide samples?",
+      "a3": "Yes. Sample requests for standard products are fulfilled within 5 business days at no charge. Custom samples are priced based on complexity.",
+      "q4": "What certifications do your products carry?",
+      "a4": "Products carry OEKO-TEX Standard 100, ISO 9001:2015, and GRS certifications. Client-specific compliance packages are available on request."
+    },
+    "tabQuote": "Request Quote",
+    "tabDesign": "Upload Design",
+    "name": "Full Name",
+    "company": "Company Name",
+    "country": "Country",
+    "moq": "Estimated MOQ",
+    "message": "Message",
+    "submit": "Send Request",
+    "successTitle": "Request Sent!",
+    "successMessage": "Thank you! Your request has been received. Our team will contact you within 24 hours.",
+    "success": "Your request has been sent. We will contact you within 24 hours.",
+    "sendAnother": "Send Another Request",
+    "required": "* Required field",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address"
+    }
+  },
+  "cart": {
+    "label": "INQUIRY LIST",
+    "title": "Your Inquiry",
+    "summary": "Order Summary",
+    "totalItems": "Total Items",
+    "products": "Product Lines",
+    "empty": "Your inquiry list is empty",
+    "emptySubtitle": "Browse our product collection and add items to your inquiry.",
+    "quoteNote": "Submit your inquiry and our team will prepare a personalized quote within 24 hours.",
+    "submitInquiry": "Submit Inquiry",
+    "clearAll": "Clear All"
+  },
+  "footer": {
+    "tagline": "Engineering Flexibility. Weaving Excellence.",
+    "rights": "© 2024 Yelmar. All rights reserved.",
+    "copyright": "© 2024 Yelmar. All rights reserved.",
+    "company": "Company",
+    "about": "About Yelmar",
+    "factory": "Factory Tour",
+    "sustainability": "Sustainability",
+    "careers": "Careers",
+    "products": "Products",
+    "elastic": "Elastic Bands",
+    "ribbon": "Woven Tapes",
+    "jacquard": "Jacquard Elastic",
+    "custom": "Custom Solutions",
+    "support": "Support",
+    "contact": "Contact Us",
+    "samples": "Request Samples",
+    "resources": "Resources",
+    "faq": "FAQ"
+  }
+}
