@@ -111,16 +111,16 @@ class _HeroSectionState extends State<HeroSection>
                       ),
                       colors: [
                         Color.lerp(
-                          const Color(0xFF020B18),
-                          const Color(0xFF071B3B),
+                          const Color(0xFFFFFDF9),
+                          const Color(0xFFF6EFE2),
                           t,
                         )!,
                         Color.lerp(
-                          const Color(0xFF0D2D66),
-                          const Color(0xFF020B18),
+                          const Color(0xFFF1E8D6),
+                          const Color(0xFFFBF8F2),
                           t,
                         )!,
-                        const Color(0xFF020B18),
+                        const Color(0xFFFBF8F2),
                       ],
                       stops: const [0.0, 0.55, 1.0],
                     ),
@@ -129,13 +129,14 @@ class _HeroSectionState extends State<HeroSection>
                     children: [
                       // Full-screen factory background image (subtle, behind everything)
                       Positioned.fill(
-                        child: Image.network(
-                          'https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=1920&h=1080&fit=crop&auto=format&q=50',
-                          fit: BoxFit.cover,
-                          color: Colors.black.withOpacity(0.75),
-                          colorBlendMode: BlendMode.darken,
-                          errorBuilder: (_, __, ___) => const SizedBox.shrink(),
-                          loadingBuilder: (context, child, progress) => child,
+                        child: Opacity(
+                          opacity: 0.10,
+                          child: Image.network(
+                            'https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=1920&h=1080&fit=crop&auto=format&q=50',
+                            fit: BoxFit.cover,
+                            errorBuilder: (_, __, ___) => const SizedBox.shrink(),
+                            loadingBuilder: (context, child, progress) => child,
+                          ),
                         ),
                       ),
 

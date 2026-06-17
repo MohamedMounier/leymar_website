@@ -97,7 +97,7 @@ class _SustainabilitySectionState extends State<SustainabilitySection>
             end: Alignment.bottomRight,
             colors: [
               AppColors.background,
-              const Color(0xFF021510),
+              const Color(0xFFEAF2EC),
               AppColors.background,
             ],
           ),
@@ -112,7 +112,7 @@ class _SustainabilitySectionState extends State<SustainabilitySection>
                     center: Alignment.centerRight,
                     radius: 1.2,
                     colors: [
-                      const Color(0xFF0A4A2E).withOpacity(0.15),
+                      const Color(0xFF2E9B6A).withOpacity(0.10),
                       Colors.transparent,
                     ],
                   ),

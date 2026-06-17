@@ -77,9 +77,9 @@ class _IndustriesSectionState extends State<IndustriesSection> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xFF020B18),
-              Color(0xFF071B3B),
-              Color(0xFF020B18),
+              Color(0xFFF6EFE2),
+              Color(0xFFFBF8F2),
+              Color(0xFFF6EFE2),
             ],
             stops: [0.0, 0.5, 1.0],
           ),
@@ -293,7 +293,7 @@ class _DiagonalTexturePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = AppColors.accent.withOpacity(0.02)
+      ..color = AppColors.primary.withOpacity(0.04)
       ..strokeWidth = 1
       ..style = PaintingStyle.stroke;
 

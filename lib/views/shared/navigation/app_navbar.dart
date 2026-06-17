@@ -40,16 +40,25 @@ class _AppNavbarState extends State<AppNavbar> {
           duration: const Duration(milliseconds: 300),
           decoration: BoxDecoration(
             color: state.isNavbarOpaque
-                ? AppColors.primary.withOpacity(0.95)
-                : AppColors.background.withOpacity(0.7),
+                ? Colors.white.withOpacity(0.94)
+                : AppColors.background.withOpacity(0.55),
             border: Border(
               bottom: BorderSide(
                 color: state.isNavbarOpaque
-                    ? AppColors.accent.withOpacity(0.2)
+                    ? AppColors.gold.withOpacity(0.25)
                     : Colors.transparent,
                 width: 1,
               ),
             ),
+            boxShadow: state.isNavbarOpaque
+                ? [
+                    BoxShadow(
+                      color: AppColors.primary.withOpacity(0.06),
+                      blurRadius: 18,
+                      offset: const Offset(0, 6),
+                    ),
+                  ]
+                : null,
           ),
           child: SafeArea(
             bottom: false,

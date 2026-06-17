@@ -8,14 +8,18 @@ class AppTheme {
   static ThemeData get theme => ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: AppColors.background,
-        colorScheme: const ColorScheme.dark(
+        colorScheme: const ColorScheme.light(
           surface: AppColors.background,
           primary: AppColors.primary,
           secondary: AppColors.accent,
-          onPrimary: AppColors.textPrimary,
+          onPrimary: Colors.white,
           onSurface: AppColors.textPrimary,
         ),
-        textTheme: GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
+        textTheme: GoogleFonts.montserratTextTheme(ThemeData.light().textTheme)
+            .apply(
+          bodyColor: AppColors.textPrimary,
+          displayColor: AppColors.textPrimary,
+        ),
         appBarTheme: const AppBarTheme(
           backgroundColor: AppColors.background,
           elevation: 0,
@@ -23,8 +27,8 @@ class AppTheme {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.accent,
-            foregroundColor: AppColors.primary,
+            backgroundColor: AppColors.gold,
+            foregroundColor: AppColors.primaryDark,
             elevation: 0,
             shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.zero,
@@ -33,6 +37,6 @@ class AppTheme {
         ),
         dividerColor: AppColors.divider,
         cardColor: AppColors.cardColor,
-        dialogBackgroundColor: AppColors.primary,
+        dialogBackgroundColor: AppColors.cardColor,
       );
 }

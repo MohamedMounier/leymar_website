@@ -167,8 +167,8 @@ class _HeroSection extends StatelessWidget {
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
                 colors: [
-                  Color(0x55020B18),
-                  Color(0xDD020B18),
+                  Color(0x55FBF8F2),
+                  Color(0xF2FBF8F2),
                 ],
               ),
             ),
@@ -290,8 +290,8 @@ class _HeroBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(
-        color: AppColors.primary.withOpacity(0.7),
-        border: Border.all(color: AppColors.accent.withOpacity(0.5)),
+        color: Colors.white.withOpacity(0.85),
+        border: Border.all(color: AppColors.gold.withOpacity(0.5)),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -338,7 +338,7 @@ class _StatsSectionState extends State<_StatsSection> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color(0xFF071B3B), Color(0xFF020B18)],
+            colors: [AppColors.surfaceAlt, AppColors.background],
           ),
         ),
         padding: EdgeInsets.symmetric(
@@ -730,7 +730,7 @@ class _ProcessSectionState extends State<_ProcessSection> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [AppColors.background, AppColors.primary.withOpacity(0.3), AppColors.background],
+            colors: [AppColors.background, AppColors.surfaceAlt, AppColors.background],
           ),
         ),
         padding: EdgeInsets.symmetric(
@@ -906,17 +906,11 @@ class _CertificationsSectionState extends State<_CertificationsSection> {
         }
       },
       child: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: const NetworkImage(
-              'https://images.unsplash.com/photo-1565008782736-2b1e5fcb5c15?w=1920&h=600&fit=crop&auto=format&q=30',
-            ),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-              const Color(0xFF020B18).withOpacity(0.92),
-              BlendMode.darken,
-            ),
-            onError: (_, __) {},
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [AppColors.surfaceAlt, AppColors.background],
           ),
         ),
         padding: EdgeInsets.symmetric(
@@ -1080,7 +1074,7 @@ class _VisitCTASection extends StatelessWidget {
           const SizedBox(height: AppSpacing.md),
           Text(
             'factoryTour.cta.title'.tr(),
-            style: AppTextStyles.headlineLarge,
+            style: AppTextStyles.headlineLarge.copyWith(color: AppColors.background),
             textAlign: TextAlign.center,
           )
               .animate()
@@ -1090,7 +1084,7 @@ class _VisitCTASection extends StatelessWidget {
             width: isDesktop ? 560 : double.infinity,
             child: Text(
               'factoryTour.cta.subtitle'.tr(),
-              style: AppTextStyles.bodyMedium,
+              style: AppTextStyles.bodyMedium.copyWith(color: const Color(0xFFC7BFB0)),
               textAlign: TextAlign.center,
             ),
           )

@@ -93,7 +93,7 @@ class _GlobalReachSectionState extends State<GlobalReachSection>
             end: Alignment.bottomCenter,
             colors: [
               AppColors.background,
-              AppColors.primary.withOpacity(0.5),
+              AppColors.surfaceAlt,
               AppColors.background,
             ],
           ),
@@ -258,17 +258,17 @@ class _GlobePainter extends CustomPainter {
       ..shader = RadialGradient(
         center: const Alignment(-0.3, -0.3),
         colors: [
-          AppColors.secondary.withOpacity(0.35),
-          AppColors.primary.withOpacity(0.6),
-          AppColors.background,
+          AppColors.secondary,
+          AppColors.primary,
+          AppColors.primaryDark,
         ],
-        stops: const [0.0, 0.5, 1.0],
+        stops: const [0.0, 0.55, 1.0],
       ).createShader(Rect.fromCircle(center: center, radius: radius));
     canvas.drawCircle(center, radius, fillPaint);
 
     // --- Latitude lines ---
     final latPaint = Paint()
-      ..color = AppColors.secondary.withOpacity(0.22)
+      ..color = AppColors.highlight.withOpacity(0.24)
       ..strokeWidth = 0.8
       ..style = PaintingStyle.stroke;
 
@@ -285,7 +285,7 @@ class _GlobePainter extends CustomPainter {
 
     // --- Longitude lines ---
     final lonPaint = Paint()
-      ..color = AppColors.secondary.withOpacity(0.18)
+      ..color = AppColors.highlight.withOpacity(0.16)
       ..strokeWidth = 0.8
       ..style = PaintingStyle.stroke;
 

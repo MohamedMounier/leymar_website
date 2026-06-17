@@ -82,9 +82,9 @@ class _ManufacturingSectionState extends State<ManufacturingSection> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xFF020B18),
-              Color(0xFF071B3B),
-              Color(0xFF020B18),
+              Color(0xFFFFFFFF),
+              Color(0xFFF7F1E6),
+              Color(0xFFFFFFFF),
             ],
             stops: [0.0, 0.6, 1.0],
           ),

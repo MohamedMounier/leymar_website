@@ -197,16 +197,16 @@ class _PageHeader extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.fromLTRB(hPad, 60, hPad, 60),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient: const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            AppColors.primary.withOpacity(0.6),
-            AppColors.background.withOpacity(0.4),
+            AppColors.surfaceAlt,
+            AppColors.background,
           ],
         ),
-        border: const Border(
-          bottom: BorderSide(color: Color(0xFF1A3060), width: 1),
+        border: Border(
+          bottom: BorderSide(color: AppColors.gold.withOpacity(0.25), width: 1),
         ),
       ),
       child: Column(
@@ -656,21 +656,21 @@ class _ProductCardState extends State<_ProductCard> {
             boxShadow: _hovered
                 ? [
                     BoxShadow(
-                      color: AppColors.accent.withOpacity(0.18),
+                      color: AppColors.gold.withOpacity(0.22),
                       blurRadius: 40,
                       spreadRadius: 1,
                     ),
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.4),
-                      blurRadius: 20,
-                      offset: const Offset(0, 8),
+                      color: AppColors.primary.withOpacity(0.16),
+                      blurRadius: 24,
+                      offset: const Offset(0, 14),
                     ),
                   ]
                 : [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.3),
-                      blurRadius: 12,
-                      offset: const Offset(0, 4),
+                      color: AppColors.primary.withOpacity(0.08),
+                      blurRadius: 20,
+                      offset: const Offset(0, 10),
                     ),
                   ],
           ),
@@ -835,7 +835,7 @@ class _ProductCardState extends State<_ProductCard> {
                                   color: _hexColor(hex),
                                   shape: BoxShape.circle,
                                   border: Border.all(
-                                    color: Colors.white.withOpacity(0.2),
+                                    color: AppColors.textMuted.withOpacity(0.35),
                                     width: 1,
                                   ),
                                 ),

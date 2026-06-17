@@ -64,22 +64,11 @@ class _FactoryStatsSectionState extends State<FactoryStatsSection> {
       },
       child: Container(
         width: double.infinity,
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: NetworkImage(
-              'https://images.unsplash.com/photo-1565008782736-2b1e5fcb5c15?w=1920&h=800&fit=crop&auto=format&q=40',
-            ),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(
-              const Color(0xFF020B18).withOpacity(0.85),
-              BlendMode.darken,
-            ),
-            onError: (_, __) {},
-          ),
-          gradient: const LinearGradient(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Color(0xFF020B18), Color(0xFF071B3B), Color(0xFF020B18)],
+            colors: [Color(0xFFF3ECDF), Color(0xFFFBF8F2), Color(0xFFF3ECDF)],
             stops: [0.0, 0.5, 1.0],
           ),
         ),
@@ -113,7 +102,7 @@ class _FactoryStatsSectionState extends State<FactoryStatsSection> {
                   shape: BoxShape.circle,
                   gradient: RadialGradient(
                     colors: [
-                      AppColors.secondary.withOpacity(0.3),
+                      AppColors.gold.withOpacity(0.12),
                       Colors.transparent,
                     ],
                   ),

@@ -6,6 +6,7 @@ import 'package:visibility_detector/visibility_detector.dart';
 import 'package:lymar_sample_project/core/theme/app_colors.dart';
 import 'package:lymar_sample_project/core/theme/app_text_styles.dart';
 import 'package:lymar_sample_project/core/theme/app_spacing.dart';
+import 'package:lymar_sample_project/core/theme/app_shadows.dart';
 import 'package:lymar_sample_project/core/widgets/luxury_button.dart';
 import 'package:lymar_sample_project/core/widgets/section_header.dart';
 import 'package:lymar_sample_project/cubits/contact/contact_cubit.dart';
@@ -94,9 +95,9 @@ class _ContactSectionState extends State<ContactSection> {
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [
-                      AppColors.background.withOpacity(0.92),
-                      AppColors.primary.withOpacity(0.85),
-                      AppColors.background.withOpacity(0.95),
+                      AppColors.background.withOpacity(0.55),
+                      AppColors.surfaceAlt.withOpacity(0.70),
+                      AppColors.background.withOpacity(0.60),
                     ],
                   ),
                 ),
@@ -245,11 +246,12 @@ class _ContactSectionState extends State<ContactSection> {
 
         return Container(
           decoration: BoxDecoration(
-            color: AppColors.primary.withOpacity(0.4),
+            color: AppColors.cardColor,
             border: Border.all(
-              color: AppColors.accent.withOpacity(0.2),
+              color: AppColors.gold.withOpacity(0.25),
               width: 1,
             ),
+            boxShadow: AppShadows.card,
           ),
           padding: const EdgeInsets.all(AppSpacing.xl),
           child: Column(
@@ -397,11 +399,12 @@ class _ContactSectionState extends State<ContactSection> {
   Widget _buildSuccessState() {
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.primary.withOpacity(0.4),
+        color: AppColors.cardColor,
         border: Border.all(
-          color: const Color(0xFF2E9B6A).withOpacity(0.4),
+          color: const Color(0xFF2E9B6A).withOpacity(0.5),
           width: 1,
         ),
+        boxShadow: AppShadows.card,
       ),
       padding: const EdgeInsets.all(AppSpacing.xxxl),
       child: Column(
@@ -548,7 +551,7 @@ class _LuxuryTextField extends StatelessWidget {
           letterSpacing: 0.5,
         ),
         filled: true,
-        fillColor: const Color(0xFF071B3B),
+        fillColor: AppColors.surfaceAlt,
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 16,
           vertical: 14,
@@ -602,7 +605,7 @@ class _WovenPatternPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = AppColors.accent.withOpacity(0.03)
+      ..color = AppColors.gold.withOpacity(0.07)
       ..strokeWidth = 1
       ..style = PaintingStyle.stroke;
 
@@ -624,7 +627,7 @@ class _WovenPatternPainter extends CustomPainter {
 
     // Vertical threads
     final vPaint = Paint()
-      ..color = AppColors.secondary.withOpacity(0.05)
+      ..color = AppColors.primary.withOpacity(0.06)
       ..strokeWidth = 1
       ..style = PaintingStyle.stroke;
 

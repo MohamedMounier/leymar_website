@@ -638,7 +638,7 @@ class _InfoPanel extends StatelessWidget {
                       border: Border.all(
                         color: isActive
                             ? AppColors.accent
-                            : Colors.white.withOpacity(0.15),
+                            : AppColors.textMuted.withOpacity(0.3),
                         width: isActive ? 2.5 : 1,
                       ),
                       boxShadow: isActive
@@ -931,7 +931,7 @@ class _SpecsSection extends StatelessWidget {
                             horizontal: 16, vertical: 14),
                         decoration: BoxDecoration(
                           color: isEven
-                              ? AppColors.primary.withOpacity(0.3)
+                              ? AppColors.surfaceAlt.withOpacity(0.7)
                               : Colors.transparent,
                         ),
                         child: Row(

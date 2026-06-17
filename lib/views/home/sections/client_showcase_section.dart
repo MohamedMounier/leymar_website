@@ -95,7 +95,7 @@ class _ClientShowcaseSectionState extends State<ClientShowcaseSection>
             end: Alignment.bottomCenter,
             colors: [
               AppColors.background,
-              AppColors.primary.withOpacity(0.3),
+              AppColors.surfaceAlt,
               AppColors.background,
             ],
           ),

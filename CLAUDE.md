@@ -36,15 +36,21 @@ Yelmar is a luxury industrial textile manufacturer. This is not a company websit
 
 ## Color Palette
 
+**Direction: LIGHT luxury** — warm ivory canvas, deep royal-navy ink, antique-gold accents (matches the logo: gold loom + serif wordmark on navy jacquard). Navy is now an accent/ink color, not the background. Use deep navy only as deliberate feature strips (footer, CTA bands, the globe).
+
 | Role | Name | Hex |
 |---|---|---|
-| Primary | Royal Midnight Blue | `#071B3B` |
-| Secondary | Deep Sapphire | `#0D2D66` |
-| Accent | Antique Gold | `#C79A3B` |
+| Background | Porcelain Ivory | `#FBF8F2` |
+| Surface Alt | Champagne Sand | `#F3ECDF` |
+| Cards | Pristine White | `#FFFFFF` |
+| Primary (navy ink) | Deep Sapphire | `#0D2D66` |
+| Primary Dark | Royal Midnight | `#071B3B` |
+| Accent (text-safe gold) | Deep Antique Gold | `#A9781E` |
+| Gold (metallic fills) | Brand Gold | `#C79A3B` |
 | Highlight | Champagne Gold | `#E0BC74` |
-| Background | Dark Luxury | `#020B18` |
-| Cards | Deep Card | `#0F1F3D` |
-| Text | Warm White | `#F7F5F2` |
+| Text Primary | Deep Navy Ink | `#0B1E3F` |
+| Text Secondary | Slate | `#55607A` |
+| Divider | Warm Hairline | `#E7DFCF` |
 
 ---
 

@@ -128,10 +128,10 @@ class _FooterWidget extends StatelessWidget {
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
-        color: const Color(0xFF020810),
+        gradient: AppColors.navyGradient,
         border: Border(
           top: BorderSide(
-            color: AppColors.accent.withOpacity(0.2),
+            color: AppColors.gold.withOpacity(0.35),
             width: 1,
           ),
         ),
@@ -195,7 +195,7 @@ class _FooterWidget extends StatelessWidget {
         Text(
           'footer.copyright'.tr(),
           style: AppTextStyles.bodySmall.copyWith(
-            color: AppColors.textMuted,
+            color: const Color(0xFFC7BFB0),
           ),
           textAlign: TextAlign.center,
         ),
@@ -212,7 +212,7 @@ class _FooterWidget extends StatelessWidget {
         Text(
           'footer.tagline'.tr(),
           style: AppTextStyles.bodySmall.copyWith(
-            color: AppColors.textMuted,
+            color: const Color(0xFFC7BFB0),
             height: 1.7,
           ),
         ),
@@ -227,7 +227,7 @@ class _FooterWidget extends StatelessWidget {
         Text(
           'footer.copyright'.tr(),
           style: AppTextStyles.bodySmall.copyWith(
-            color: AppColors.textMuted,
+            color: const Color(0xFFC7BFB0),
           ),
         ),
       ],
@@ -250,7 +250,7 @@ class _FooterWidget extends StatelessWidget {
                 child: Text(
                   item,
                   style: AppTextStyles.bodySmall.copyWith(
-                    color: AppColors.textMuted,
+                    color: const Color(0xFFC7BFB0),
                     height: 1.5,
                   ),
                 ),

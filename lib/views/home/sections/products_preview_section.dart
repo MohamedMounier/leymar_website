@@ -78,9 +78,9 @@ class _ProductsPreviewSectionState extends State<ProductsPreviewSection> {
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             colors: [
-              Color(0xFF020B18),
-              Color(0xFF071B3B),
-              Color(0xFF020B18),
+              Color(0xFFFBF8F2),
+              Color(0xFFF1E8D6),
+              Color(0xFFFBF8F2),
             ],
             stops: [0.0, 0.5, 1.0],
           ),

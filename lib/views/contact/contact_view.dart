@@ -111,7 +111,7 @@ class _HeroSection extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight,
-                colors: [Color(0xEE020B18), Color(0x88020B18)],
+                colors: [Color(0xF5FBF8F2), Color(0x55FBF8F2)],
               ),
             ),
           ),
@@ -314,9 +314,10 @@ class _ContactInfoCardState extends State<_ContactInfoCard> {
             boxShadow: [
               BoxShadow(
                 color: _hovered
-                    ? AppColors.accent.withOpacity(0.18)
-                    : Colors.black.withOpacity(0.3),
-                blurRadius: _hovered ? 30 : 12,
+                    ? AppColors.gold.withOpacity(0.22)
+                    : AppColors.primary.withOpacity(0.08),
+                blurRadius: _hovered ? 30 : 18,
+                offset: const Offset(0, 8),
               ),
             ],
           ),
@@ -670,11 +671,11 @@ class _LuxuryFieldState extends State<_LuxuryField> {
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 250),
         decoration: BoxDecoration(
-          color: AppColors.primary.withOpacity(0.4),
+          color: AppColors.surfaceAlt,
           border: Border.all(
             color: _focused
                 ? AppColors.accent
-                : AppColors.accent.withOpacity(0.2),
+                : AppColors.accent.withOpacity(0.25),
             width: _focused ? 1.5 : 1,
           ),
           boxShadow: _focused
@@ -775,12 +776,13 @@ class _ContactInfoPanel extends StatelessWidget {
         // Company tagline
         Container(
           padding: const EdgeInsets.all(AppSpacing.xl),
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Color(0xFF0D2D66), Color(0xFF071B3B)],
+              colors: [AppColors.surfaceAlt, AppColors.cardColor],
             ),
+            border: Border.all(color: AppColors.gold.withOpacity(0.3)),
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -946,7 +948,7 @@ class _FAQSectionState extends State<_FAQSection> {
     final hPad = isDesktop ? 80.0 : isTablet ? 40.0 : 20.0;
 
     return Container(
-      color: AppColors.primary.withOpacity(0.2),
+      color: AppColors.surfaceAlt,
       padding: EdgeInsets.symmetric(
           vertical: AppSpacing.section, horizontal: hPad),
       child: Column(
@@ -1080,7 +1082,7 @@ class _MapSection extends StatelessWidget {
                   Container(color: AppColors.primary),
             ),
             Container(
-              color: AppColors.background.withOpacity(0.55),
+              color: AppColors.background.withOpacity(0.72),
             ),
             Center(
               child: Column(

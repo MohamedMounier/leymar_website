@@ -43,35 +43,31 @@ class _GlassCardState extends State<GlassCard> {
           padding: widget.padding,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(widget.borderRadius),
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [Color(0xFF0F1F3D), Color(0xFF071B3B)],
-            ),
+            gradient: AppColors.cardGradient,
             border: Border.all(
               color: _hovered
-                  ? AppColors.accent.withOpacity(0.6)
-                  : AppColors.accent.withOpacity(0.15),
+                  ? AppColors.gold.withOpacity(0.7)
+                  : AppColors.gold.withOpacity(0.22),
               width: 1,
             ),
             boxShadow: _hovered && widget.enableHoverGlow
                 ? [
                     BoxShadow(
-                      color: AppColors.accent.withOpacity(0.2),
+                      color: AppColors.gold.withOpacity(0.22),
                       blurRadius: 40,
                       spreadRadius: 2,
                     ),
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.5),
-                      blurRadius: 20,
-                      offset: const Offset(0, 10),
+                      color: AppColors.primary.withOpacity(0.16),
+                      blurRadius: 28,
+                      offset: const Offset(0, 16),
                     ),
                   ]
                 : [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.3),
-                      blurRadius: 15,
-                      offset: const Offset(0, 5),
+                      color: AppColors.primary.withOpacity(0.08),
+                      blurRadius: 22,
+                      offset: const Offset(0, 10),
                     ),
                   ],
           ),

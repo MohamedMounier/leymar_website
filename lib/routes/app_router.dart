@@ -64,11 +64,11 @@ class _PlaceholderView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF020B18),
+      backgroundColor: const Color(0xFFFBF8F2),
       body: Center(
         child: Text(
           title,
-          style: const TextStyle(color: Color(0xFFF7F5F2), fontSize: 32),
+          style: const TextStyle(color: Color(0xFF0B1E3F), fontSize: 32),
         ),
       ),
     );

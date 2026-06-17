@@ -56,13 +56,14 @@ class _CartScaffold extends StatelessWidget {
                   width: double.infinity,
                   padding: EdgeInsets.fromLTRB(hPad, 48, hPad, 48),
                   decoration: BoxDecoration(
-                    border: const Border(
-                      bottom: BorderSide(color: Color(0xFF1A3060), width: 1),
+                    border: Border(
+                      bottom: BorderSide(
+                          color: AppColors.gold.withOpacity(0.25), width: 1),
                     ),
-                    gradient: LinearGradient(
+                    gradient: const LinearGradient(
                       colors: [
-                        AppColors.primary.withOpacity(0.5),
-                        AppColors.background.withOpacity(0.3),
+                        AppColors.surfaceAlt,
+                        AppColors.background,
                       ],
                     ),
                   ),

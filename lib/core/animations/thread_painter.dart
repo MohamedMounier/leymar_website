@@ -22,11 +22,11 @@ class ThreadPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final linePaint = Paint()
-      ..strokeWidth = 0.6
+      ..strokeWidth = 0.7
       ..style = PaintingStyle.stroke;
 
     final dotPaint = Paint()
-      ..color = const Color(0xFFC79A3B).withOpacity(0.2)
+      ..color = const Color(0xFFB0822E).withOpacity(0.45)
       ..style = PaintingStyle.fill;
 
     for (int i = 0; i < particles.length; i++) {
@@ -36,14 +36,14 @@ class ThreadPainter extends CustomPainter {
         final distance = sqrt(dx * dx + dy * dy);
 
         if (distance < 180) {
-          final opacity = (1 - distance / 180) * 0.07;
-          linePaint.color = Color(0xFFC79A3B).withOpacity(opacity);
+          final opacity = (1 - distance / 180) * 0.22;
+          linePaint.color = const Color(0xFFB0822E).withOpacity(opacity);
           canvas.drawLine(particles[i].position, particles[j].position, linePaint);
         }
       }
 
       // Draw dot
-      canvas.drawCircle(particles[i].position, 1.2, dotPaint);
+      canvas.drawCircle(particles[i].position, 1.3, dotPaint);
 
       // Mouse attraction line
       if (mousePosition != null) {
@@ -51,8 +51,8 @@ class ThreadPainter extends CustomPainter {
         final mdy = particles[i].position.dy - mousePosition!.dy;
         final mDist = sqrt(mdx * mdx + mdy * mdy);
         if (mDist < 120) {
-          final mOpacity = (1 - mDist / 120) * 0.12;
-          linePaint.color = Color(0xFFE0BC74).withOpacity(mOpacity);
+          final mOpacity = (1 - mDist / 120) * 0.40;
+          linePaint.color = const Color(0xFF0D2D66).withOpacity(mOpacity);
           canvas.drawLine(particles[i].position, mousePosition!, linePaint);
         }
       }
