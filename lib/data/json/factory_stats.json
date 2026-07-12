@@ -1,8 +1,0 @@
-{
-  "stats": [
-    { "value": 150, "suffix": "+", "label": "Machines", "labelAr": "آلة" },
-    { "value": 25, "suffix": "M+", "label": "Meters Annually", "labelAr": "متر سنوياً" },
-    { "value": 50, "suffix": "+", "label": "Countries", "labelAr": "دولة" },
-    { "value": 30, "suffix": "+", "label": "Years Experience", "labelAr": "سنة خبرة" }
-  ]
-}

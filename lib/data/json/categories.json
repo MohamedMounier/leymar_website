@@ -1,9 +1,0 @@
-[
-  { "id": "all", "name": "All Products", "nameAr": "جميع المنتجات", "icon": "grid_view", "productCount": 35 },
-  { "id": "tapes", "name": "Woven Tapes", "nameAr": "الشرائط النسيجية", "icon": "horizontal_rule", "productCount": 8 },
-  { "id": "cords", "name": "Cords & Drawcords", "nameAr": "الكردون والحبال", "icon": "timeline", "productCount": 6 },
-  { "id": "elastic", "name": "Elastics", "nameAr": "الاستك المطاط", "icon": "linear_scale", "productCount": 6 },
-  { "id": "printing", "name": "Printing", "nameAr": "الطباعة", "icon": "print", "productCount": 8 },
-  { "id": "dyeing", "name": "Dyeing", "nameAr": "الصباغة", "icon": "palette", "productCount": 5 },
-  { "id": "knitting", "name": "Knitting (Trico)", "nameAr": "التريكو", "icon": "pattern", "productCount": 2 }
-]
