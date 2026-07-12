@@ -14,9 +14,9 @@ flutter build web        # Web release build
 
 ## Project Overview
 
-**Project Name:** Yelmar Website
+**Project Name:** Ylmar Website
 
-Yelmar is a luxury industrial textile manufacturer. This is not a company website — it is a **Luxury Industrial Digital Experience** that must feel like Apple, Rolls-Royce, or Bentley, not a factory site.
+Ylmar is a luxury industrial textile manufacturer. This is not a company website — it is a **Luxury Industrial Digital Experience** that must feel like Apple, Rolls-Royce, or Bentley, not a factory site.
 
 **Products:** Elastic Bands, Jacquard Elastic, Waistband Elastic, Drawcords, Woven Tapes, Webbing, Garment Accessories, Custom Textile Solutions.
 
@@ -135,7 +135,7 @@ Each feature owns one Cubit. Business logic never lives in UI widgets.
 ## Page Structure
 
 ```
-Home · About Yelmar · Capabilities · Products · Custom Manufacturing ·
+Home · About Ylmar · Capabilities · Products · Custom Manufacturing ·
 Industries · Technology · Factory Tour · Quality Assurance ·
 Global Clients · Resources · Contact
 ```
@@ -245,7 +245,7 @@ Textile-related only: loom machines, elastic bands, manufacturing processes, fac
 
 ---
 
-## What Makes Yelmar Unique
+## What Makes Ylmar Unique
 
 These elements must distinguish the site from all competitors:
 
@@ -260,4 +260,4 @@ These elements must distinguish the site from all competitors:
 9. Animated yarn particles following mouse on desktop
 10. Full cinematic hero with video and parallax
 
-If executed correctly, Yelmar will read as a European luxury brand, not a factory website.
+If executed correctly, Ylmar will read as a European luxury brand, not a factory website.

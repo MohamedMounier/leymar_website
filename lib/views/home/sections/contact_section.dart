@@ -142,15 +142,16 @@ class _ContactSectionState extends State<ContactSection> {
       children: [
         // Left: contact info
         Expanded(
-          flex: 4,
+          flex: 6,
           child: _buildContactInfo(context),
         ),
-        const SizedBox(width: AppSpacing.xxxl),
-        // Right: form
-        Expanded(
-          flex: 6,
-          child: _buildForm(context),
-        ),
+        SizedBox(),
+        // const SizedBox(width: AppSpacing.xxxl),
+        // // Right: form
+        // Expanded(
+        //   flex: 6,
+        //   child: _buildForm(context),
+        // ),
       ],
     );
   }
@@ -159,8 +160,8 @@ class _ContactSectionState extends State<ContactSection> {
     return Column(
       children: [
         _buildContactInfo(context),
-        const SizedBox(height: AppSpacing.xxxl),
-        _buildForm(context),
+        // const SizedBox(height: AppSpacing.xxxl),
+        // _buildForm(context),
       ],
     );
   }
@@ -173,7 +174,7 @@ class _ContactSectionState extends State<ContactSection> {
       children: [
         // Company logo text
         Text(
-          'YELMAR',
+          'Ylmar',
           style: AppTextStyles.logoText.copyWith(
             fontSize: 42,
             letterSpacing: 8,
@@ -221,180 +222,180 @@ class _ContactSectionState extends State<ContactSection> {
         .slideX(begin: -0.2, end: 0, duration: 700.ms, delay: 200.ms);
   }
 
-  Widget _buildForm(BuildContext context) {
-    if (!_visible) return const SizedBox.shrink();
+  // Widget _buildForm(BuildContext context) {
+  //   if (!_visible) return const SizedBox.shrink();
+  //
+  //   return BlocConsumer<ContactCubit, ContactState>(
+  //     listener: (context, state) {
+  //       if (state.status == ContactStatus.success) {
+  //         ScaffoldMessenger.of(context).showSnackBar(
+  //           SnackBar(
+  //             content: Text(
+  //               'contact.successMessage'.tr(),
+  //               style: const TextStyle(color: Colors.white),
+  //             ),
+  //             backgroundColor: const Color(0xFF1A5E3E),
+  //             duration: const Duration(seconds: 4),
+  //           ),
+  //         );
+  //       }
+  //     },
+  //     builder: (context, state) {
+  //       if (state.status == ContactStatus.success) {
+  //         return _buildSuccessState();
+  //       }
+  //
+  //       return Container(
+  //         decoration: BoxDecoration(
+  //           color: AppColors.cardColor,
+  //           border: Border.all(
+  //             color: AppColors.gold.withOpacity(0.25),
+  //             width: 1,
+  //           ),
+  //           boxShadow: AppShadows.card,
+  //         ),
+  //         padding: const EdgeInsets.all(AppSpacing.xl),
+  //         child: Column(
+  //           crossAxisAlignment: CrossAxisAlignment.start,
+  //           children: [
+  //             // Tabs
+  //             _buildTabSelector(context, state),
+  //             const SizedBox(height: AppSpacing.xl),
+  //
+  //             // Form
+  //             Form(
+  //               key: _formKey,
+  //               child: Column(
+  //                 children: [
+  //                   Row(
+  //                     children: [
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _nameController,
+  //                           labelKey: 'contact.field.name',
+  //                           required: true,
+  //                         ),
+  //                       ),
+  //                       const SizedBox(width: AppSpacing.md),
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _companyController,
+  //                           labelKey: 'contact.field.company',
+  //                         ),
+  //                       ),
+  //                     ],
+  //                   ),
+  //                   const SizedBox(height: AppSpacing.md),
+  //                   Row(
+  //                     children: [
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _countryController,
+  //                           labelKey: 'contact.field.country',
+  //                         ),
+  //                       ),
+  //                       const SizedBox(width: AppSpacing.md),
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _emailController,
+  //                           labelKey: 'contact.field.email',
+  //                           required: true,
+  //                           keyboardType: TextInputType.emailAddress,
+  //                           emailValidation: true,
+  //                         ),
+  //                       ),
+  //                     ],
+  //                   ),
+  //                   const SizedBox(height: AppSpacing.md),
+  //                   Row(
+  //                     children: [
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _phoneController,
+  //                           labelKey: 'contact.field.phone',
+  //                           keyboardType: TextInputType.phone,
+  //                         ),
+  //                       ),
+  //                       const SizedBox(width: AppSpacing.md),
+  //                       Expanded(
+  //                         child: _LuxuryTextField(
+  //                           controller: _moqController,
+  //                           labelKey: 'contact.field.moq',
+  //                         ),
+  //                       ),
+  //                     ],
+  //                   ),
+  //                   const SizedBox(height: AppSpacing.md),
+  //                   _LuxuryTextField(
+  //                     controller: _messageController,
+  //                     labelKey: 'contact.field.message',
+  //                     maxLines: 4,
+  //                   ),
+  //                   const SizedBox(height: AppSpacing.xl),
+  //
+  //                   // Error message
+  //                   if (state.errorMessage != null && state.status != ContactStatus.loading)
+  //                     Padding(
+  //                       padding: const EdgeInsets.only(bottom: AppSpacing.md),
+  //                       child: Text(
+  //                         state.errorMessage!,
+  //                         style: AppTextStyles.bodySmall.copyWith(
+  //                           color: Colors.redAccent,
+  //                         ),
+  //                       ),
+  //                     ),
+  //
+  //                   // Submit button
+  //                   SizedBox(
+  //                     width: double.infinity,
+  //                     child: state.status == ContactStatus.loading
+  //                         ? Center(
+  //                             child: SizedBox(
+  //                               width: 24,
+  //                               height: 24,
+  //                               child: CircularProgressIndicator(
+  //                                 color: AppColors.accent,
+  //                                 strokeWidth: 2,
+  //                               ),
+  //                             ),
+  //                           )
+  //                         : LuxuryButton(
+  //                             label: 'contact.submit'.tr(),
+  //                             type: LuxuryButtonType.primary,
+  //                             onTap: () => _submit(context),
+  //                             width: double.infinity,
+  //                           ),
+  //                   ),
+  //                 ],
+  //               ),
+  //             ),
+  //           ],
+  //         ),
+  //       );
+  //     },
+  //   )
+  //       .animate()
+  //       .fadeIn(duration: 700.ms, delay: 400.ms)
+  //       .slideX(begin: 0.2, end: 0, duration: 700.ms, delay: 400.ms);
+  // }
 
-    return BlocConsumer<ContactCubit, ContactState>(
-      listener: (context, state) {
-        if (state.status == ContactStatus.success) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text(
-                'contact.successMessage'.tr(),
-                style: const TextStyle(color: Colors.white),
-              ),
-              backgroundColor: const Color(0xFF1A5E3E),
-              duration: const Duration(seconds: 4),
-            ),
-          );
-        }
-      },
-      builder: (context, state) {
-        if (state.status == ContactStatus.success) {
-          return _buildSuccessState();
-        }
-
-        return Container(
-          decoration: BoxDecoration(
-            color: AppColors.cardColor,
-            border: Border.all(
-              color: AppColors.gold.withOpacity(0.25),
-              width: 1,
-            ),
-            boxShadow: AppShadows.card,
-          ),
-          padding: const EdgeInsets.all(AppSpacing.xl),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Tabs
-              _buildTabSelector(context, state),
-              const SizedBox(height: AppSpacing.xl),
-
-              // Form
-              Form(
-                key: _formKey,
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _nameController,
-                            labelKey: 'contact.field.name',
-                            required: true,
-                          ),
-                        ),
-                        const SizedBox(width: AppSpacing.md),
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _companyController,
-                            labelKey: 'contact.field.company',
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: AppSpacing.md),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _countryController,
-                            labelKey: 'contact.field.country',
-                          ),
-                        ),
-                        const SizedBox(width: AppSpacing.md),
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _emailController,
-                            labelKey: 'contact.field.email',
-                            required: true,
-                            keyboardType: TextInputType.emailAddress,
-                            emailValidation: true,
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: AppSpacing.md),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _phoneController,
-                            labelKey: 'contact.field.phone',
-                            keyboardType: TextInputType.phone,
-                          ),
-                        ),
-                        const SizedBox(width: AppSpacing.md),
-                        Expanded(
-                          child: _LuxuryTextField(
-                            controller: _moqController,
-                            labelKey: 'contact.field.moq',
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: AppSpacing.md),
-                    _LuxuryTextField(
-                      controller: _messageController,
-                      labelKey: 'contact.field.message',
-                      maxLines: 4,
-                    ),
-                    const SizedBox(height: AppSpacing.xl),
-
-                    // Error message
-                    if (state.errorMessage != null && state.status != ContactStatus.loading)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: AppSpacing.md),
-                        child: Text(
-                          state.errorMessage!,
-                          style: AppTextStyles.bodySmall.copyWith(
-                            color: Colors.redAccent,
-                          ),
-                        ),
-                      ),
-
-                    // Submit button
-                    SizedBox(
-                      width: double.infinity,
-                      child: state.status == ContactStatus.loading
-                          ? Center(
-                              child: SizedBox(
-                                width: 24,
-                                height: 24,
-                                child: CircularProgressIndicator(
-                                  color: AppColors.accent,
-                                  strokeWidth: 2,
-                                ),
-                              ),
-                            )
-                          : LuxuryButton(
-                              label: 'contact.submit'.tr(),
-                              type: LuxuryButtonType.primary,
-                              onTap: () => _submit(context),
-                              width: double.infinity,
-                            ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        );
-      },
-    )
-        .animate()
-        .fadeIn(duration: 700.ms, delay: 400.ms)
-        .slideX(begin: 0.2, end: 0, duration: 700.ms, delay: 400.ms);
-  }
-
-  Widget _buildTabSelector(BuildContext context, ContactState state) {
-    return Row(
-      children: [
-        _TabButton(
-          label: 'contact.tabQuote'.tr(),
-          selected: state.selectedTab == 'quote',
-          onTap: () => context.read<ContactCubit>().selectTab('quote'),
-        ),
-        const SizedBox(width: AppSpacing.md),
-        _TabButton(
-          label: 'contact.tabDesign'.tr(),
-          selected: state.selectedTab == 'design',
-          onTap: () => context.read<ContactCubit>().selectTab('design'),
-        ),
-      ],
-    );
-  }
+  // Widget _buildTabSelector(BuildContext context, ContactState state) {
+  //   return Row(
+  //     children: [
+  //       _TabButton(
+  //         label: 'contact.tabQuote'.tr(),
+  //         selected: state.selectedTab == 'quote',
+  //         onTap: () => context.read<ContactCubit>().selectTab('quote'),
+  //       ),
+  //       const SizedBox(width: AppSpacing.md),
+  //       _TabButton(
+  //         label: 'contact.tabDesign'.tr(),
+  //         selected: state.selectedTab == 'design',
+  //         onTap: () => context.read<ContactCubit>().selectTab('design'),
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Widget _buildSuccessState() {
     return Container(

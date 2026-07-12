@@ -1,7 +1,7 @@
 class AppConstants {
   AppConstants._();
 
-  static const String appName = 'Yelmar';
+  static const String appName = 'Ylmar';
   static const String tagline = 'Engineering Flexibility. Weaving Excellence.';
 
   // Breakpoints
@@ -21,7 +21,7 @@ class AppConstants {
 
   // Contact info
   static const String whatsApp = '+201148030847';
-  static const String email = 'info@yelmar.com';
+  static const String email = 'ylmartex1@gmail.com';
   static const String phone = '+20 114 80 30 847';
   static const String address = 'Egypt, Cairo';
 

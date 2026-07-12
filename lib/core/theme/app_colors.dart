@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Yelmar — Light Luxury palette.
+/// Ylmar — Light Luxury palette.
 /// Warm ivory canvas, deep royal-navy ink, antique-gold accents.
 /// Derived from the logo: navy jacquard + gold loom + serif gold wordmark.
 class AppColors {

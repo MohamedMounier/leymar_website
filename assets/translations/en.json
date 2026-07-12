@@ -20,6 +20,97 @@
     "cta_secondary": "Request a Quote",
     "scroll": "Scroll to explore"
   },
+  "about": {
+    "hero": {
+      "label": "EST. 2010",
+      "title": "Ylmar Textile Industries",
+      "subtitle": "An Egyptian manufacturer of textile components and garment accessories, producing tapes, cords, elastics, knitwear, printing and dyeing for factories and brands at home and abroad.",
+      "badge1": "10th of Ramadan, Egypt",
+      "badge2": "Founded 2010",
+      "badge3": "Certified Quality"
+    },
+    "story": {
+      "label": "WHO WE ARE",
+      "title": "Built in 10th of Ramadan, Since 2010",
+      "p1": "Ylmar Textile Industries is an Egyptian factory specialized in producing components for the textile and ready-made garment industries. Founded in 2010 in 10th of Ramadan City — one of the largest industrial cities in the Middle East.",
+      "p2": "From day one, we have committed to high-quality products built on the latest manufacturing technology, the best raw materials, and modern production lines serving both the local market and export markets. Continuous development and innovation let us deliver complete solutions for garments, textiles, footwear, bags, upholstery and many other industries.",
+      "p3": "We hold accredited quality certifications that reflect our commitment to the highest standards of quality and production — making us a trusted partner for a wide range of factories and brands.",
+      "stat1": "Year Founded",
+      "stat2": "Years of Experience",
+      "stat3": "Product Divisions",
+      "stat4": "Products & Services"
+    },
+    "vision": {
+      "label": "DIRECTION",
+      "title": "Vision & Mission",
+      "visionTitle": "Our Vision",
+      "visionBody": "To be among the leaders in the textile components industry in Egypt and the Middle East, delivering innovative products of world-class quality at competitive prices, while building long-term partnerships with our clients.",
+      "missionTitle": "Our Mission",
+      "missionBody": "To provide textile products that meet the highest standards of quality and precision, to offer flexible manufacturing solutions that fit each client's needs, and to remain committed to continuous development and the very best level of customer service."
+    },
+    "why": {
+      "label": "WHY YLMAR",
+      "title": "Why Choose Ylmar",
+      "subtitle": "Eleven reasons factories and brands across Egypt and beyond keep coming back.",
+      "i1": "Over 15 years of experience in textile industries",
+      "i2": "Established in 2010",
+      "i3": "Strategic location in 10th of Ramadan City",
+      "i4": "Accredited quality certifications",
+      "i5": "Latest production machinery and technology",
+      "i6": "Manufacturing in all sizes, colors and specifications",
+      "i7": "Fully custom products made to client requirements",
+      "i8": "Committed delivery schedules",
+      "i9": "Competitive pricing with consistent quality",
+      "i10": "Dedicated custom printing and dyeing services",
+      "i11": "A highly experienced technical team"
+    },
+    "divisions": {
+      "label": "CAPABILITIES",
+      "title": "Six Production Divisions",
+      "subtitle": "A complete range of textile components, produced in any size, color and specification.",
+      "tapesTitle": "Woven Tapes",
+      "tapesBody": "Cleaning, belt, PEA, tubular, cordella, bag, checkerboard and mattress edge tapes — in polyester, spun and raw cotton, in any width, color or specification.",
+      "cordsTitle": "Cords & Drawcords",
+      "cordsBody": "Twisted, flat, tubular, leak-proof stitched and medical mask elastic cords — with transparent capsules, plastic or metal end tips, and client logo printing.",
+      "elasticTitle": "Elastics",
+      "elasticBody": "Crochet, woven, sandwich, twisted, jacquard and buttonhole elastics — in varying grades of softness, stretch and quality to suit every use.",
+      "printingTitle": "Printing",
+      "printingBody": "Printing on cords, tapes, crochet, woven and Gipex elastic and knitwear, plus embossed and engraved printing — for logos, brand marks and special colors.",
+      "dyeingTitle": "Dyeing",
+      "dyeingBody": "A dedicated dyeing department using the latest technology for color fastness: polyester and spun yarns, zipper tape, contract tape and cord dyeing, sandwich elastic and lace.",
+      "knittingTitle": "Knitting (Trico)",
+      "knittingBody": "Knitted trico produced to international specifications on the latest machinery — solid, interwoven melange, and knitted cord, in every size and color.",
+      "cta": "Explore All Products"
+    },
+    "sectors": {
+      "label": "WHO WE SERVE",
+      "title": "Sectors We Supply",
+      "subtitle": "Ylmar components go into a wide range of industries.",
+      "s1": "Ready-made garment factories",
+      "s2": "Sportswear factories",
+      "s3": "Underwear factories",
+      "s4": "Footwear factories",
+      "s5": "Bag factories",
+      "s6": "Upholstery factories",
+      "s7": "Mattress factories",
+      "s8": "Medical industries",
+      "s9": "Military industries",
+      "s10": "Promotional products",
+      "s11": "Textile industries at large"
+    },
+    "quality": {
+      "label": "QUALITY",
+      "title": "Quality Is the Basis of Everything We Do",
+      "body": "We apply rigorous control procedures at every stage of production — from raw material selection through to the finished product — to guarantee products that conform to specification and achieve the highest levels of client satisfaction."
+    },
+    "cta": {
+      "label": "WORK WITH US",
+      "title": "Looking for a Reliable Industrial Partner?",
+      "subtitle": "If you are looking for high-quality textile products with full custom manufacturing, Ylmar Textile Industries is the right choice. We are glad to work with companies and factories inside Egypt and abroad.",
+      "primary": "Contact Us",
+      "secondary": "View Products"
+    }
+  },
   "products": {
     "label": "PORTFOLIO",
     "title": "Our Products",
@@ -93,10 +184,19 @@
   "industries": {
     "label": "SECTORS",
     "title": "Industries We Serve",
-    "subtitle": "Yelmar textiles power products across six major global industries.",
-    "fashion": {
-      "title": "Fashion",
-      "description": "High-end elastics and trims for luxury fashion and ready-to-wear collections."
+    "subtitle": "Ylmar textiles power products across six major global industries.",
+
+    "men_fashion": {
+      "title": "Men's Fashion",
+      "description": "Men's clothing and accessories including jackets, T-shirts, shirts, shorts, pants, and more."
+    },
+    "kids_fashion": {
+      "title": "Kids' Fashion",
+      "description": "Clothing and fashion essentials for children of all ages."
+    },
+    "women_fashion": {
+      "title": "Women's Fashion",
+      "description": "Women's clothing and fashion essentials including pajamas, dresses, lingerie, and more."
     },
     "sports": {
       "title": "Sports & Activewear",
@@ -122,8 +222,8 @@
   "sustainability": {
     "label": "RESPONSIBILITY",
     "title": "Committed to Sustainability",
-    "subtitle": "Manufacturing excellence and environmental responsibility are not opposing forces at Yelmar.",
-    "body": "At Yelmar, we believe that industrial excellence and environmental stewardship go hand in hand. Our sustainability initiatives span our entire production chain — from raw material sourcing to final delivery.",
+    "subtitle": "Manufacturing excellence and environmental responsibility are not opposing forces at Ylmar.",
+    "body": "At Ylmar, we believe that industrial excellence and environmental stewardship go hand in hand. Our sustainability initiatives span our entire production chain — from raw material sourcing to final delivery.",
     "cert": "OEKO-TEX Certified Production",
     "goal": "Carbon Neutral by 2030",
     "water": {
@@ -177,10 +277,10 @@
   },
   "factoryTour": {
     "hero": {
-      "label": "INSIDE YELMAR",
+      "label": "INSIDE Ylmar",
       "title": "The Factory",
-      "subtitle": "Step inside our 15,000m² state-of-the-art facility in Istanbul, where precision engineering meets industrial scale.",
-      "badge1": "Istanbul, Turkey",
+      "subtitle": "Step inside our 15,000m² state-of-the-art facility in 10th Of Ramadan, Egypt, where precision engineering meets industrial scale.",
+      "badge1": "10th Of Ramadan, Egypt",
       "badge2": "15,000m² Facility",
       "badge3": "Est. 1994"
     },
@@ -225,7 +325,7 @@
     "cta": {
       "label": "VISIT US",
       "title": "Schedule a Factory Visit",
-      "subtitle": "We welcome global partners and clients to experience the Yelmar facility firsthand. Our team will host a full facility tour, product demonstration, and technical consultation.",
+      "subtitle": "We welcome global partners and clients to experience the Ylmar facility firsthand. Our team will host a full facility tour, product demonstration, and technical consultation.",
       "button": "Request a Visit"
     }
   },
@@ -236,7 +336,7 @@
   "resources": {
     "label": "KNOWLEDGE",
     "title": "Resources & Insights",
-    "subtitle": "Technical guides, design inspiration, and industry intelligence from the Yelmar team.",
+    "subtitle": "Technical guides, design inspiration, and industry intelligence from the Ylmar team.",
     "readMore": "Read Article",
     "readArticle": "Read Article"
   },
@@ -247,9 +347,10 @@
     "tagline": "Luxury textile manufacturing, precision engineered.",
     "whatsapp": "Chat on WhatsApp",
     "sendEmail": "Send Email",
-    "email": "info@yelmar.com",
-    "phone": "+90 500 000 0000",
-    "address": "Istanbul, Turkey",
+    "email": "ylmartex1@gmail.com",
+    "phone": "+2011 2688 8199",
+    "whatsapp_number":"+2011 03404 018",
+    "address": "10th Of Ramadan, Egypt",
     "emailLabel": "Email Us",
     "phoneLabel": "Call Us",
     "whatsappLabel": "WhatsApp",
@@ -308,10 +409,10 @@
   },
   "footer": {
     "tagline": "Engineering Flexibility. Weaving Excellence.",
-    "rights": "© 2024 Yelmar. All rights reserved.",
-    "copyright": "© 2024 Yelmar. All rights reserved.",
+    "rights": "© 2024 Ylmar. All rights reserved.",
+    "copyright": "© 2024 Ylmar. All rights reserved.",
     "company": "Company",
-    "about": "About Yelmar",
+    "about": "About Ylmar",
     "factory": "Factory Tour",
     "sustainability": "Sustainability",
     "careers": "Careers",

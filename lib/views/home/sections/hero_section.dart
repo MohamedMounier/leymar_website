@@ -239,7 +239,7 @@ class _HeroSectionState extends State<HeroSection>
                             children: [
                               // Logo / brand mark
                               Text(
-                                'YELMAR',
+                                'Ylmar',
                                 style: AppTextStyles.logoText.copyWith(
                                   fontSize: isMobile ? 20 : 28,
                                   letterSpacing: isMobile ? 6 : 10,

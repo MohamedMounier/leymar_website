@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lymar_sample_project/views/home/home_view.dart';
 import 'package:lymar_sample_project/views/products/products_view.dart';
 import 'package:lymar_sample_project/views/products/product_detail_view.dart';
 import 'package:lymar_sample_project/views/cart/cart_view.dart';
-import 'package:lymar_sample_project/views/factory_tour/factory_tour_view.dart';
 import 'package:lymar_sample_project/views/contact/contact_view.dart';
+import 'package:lymar_sample_project/views/about/about_view.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -36,41 +35,23 @@ class AppRouter {
       GoRoute(
         path: '/about',
         name: 'about',
-        builder: (context, state) => const _PlaceholderView(title: 'About Yelmar'),
+        builder: (context, state) => const AboutView(),
       ),
       GoRoute(
         path: '/contact',
         name: 'contact',
         builder: (context, state) => const ContactView(),
       ),
-      GoRoute(
-        path: '/industries',
-        name: 'industries',
-        builder: (context, state) => const _PlaceholderView(title: 'Industries'),
-      ),
-      GoRoute(
-        path: '/factory-tour',
-        name: 'factory-tour',
-        builder: (context, state) => const FactoryTourView(),
-      ),
+      // GoRoute(
+      //   path: '/industries',
+      //   name: 'industries',
+      //   builder: (context, state) => const _PlaceholderView(title: 'Industries'),
+      // ),
+      // GoRoute(
+      //   path: '/factory-tour',
+      //   name: 'factory-tour',
+      //   builder: (context, state) => const FactoryTourView(),
+      // ),
     ],
   );
-}
-
-class _PlaceholderView extends StatelessWidget {
-  final String title;
-  const _PlaceholderView({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFFFBF8F2),
-      body: Center(
-        child: Text(
-          title,
-          style: const TextStyle(color: Color(0xFF0B1E3F), fontSize: 32),
-        ),
-      ),
-    );
-  }
 }

@@ -787,7 +787,7 @@ class _ContactInfoPanel extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('YELMAR', style: AppTextStyles.logoText),
+              Text('Ylmar', style: AppTextStyles.logoText),
               const SizedBox(height: AppSpacing.sm),
               Text('contact.tagline'.tr(), style: AppTextStyles.bodyMedium),
               const SizedBox(height: AppSpacing.lg),
@@ -1092,7 +1092,7 @@ class _MapSection extends StatelessWidget {
                       color: AppColors.accent, size: 48),
                   const SizedBox(height: 8),
                   Text(
-                    'Istanbul, Turkey',
+                    '10th Of Ramadan, Egypt',
                     style: AppTextStyles.headlineMedium,
                   ),
                   Text(

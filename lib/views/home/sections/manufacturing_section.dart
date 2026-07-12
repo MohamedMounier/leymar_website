@@ -49,12 +49,12 @@ class _ManufacturingSectionState extends State<ManufacturingSection> {
       descKey: 'manufacturing.steps.packaging.description',
       imageUrl: 'https://images.unsplash.com/photo-1591696331111-ef9586a5b17a?w=400&h=220&fit=crop&auto=format',
     ),
-    _ManufacturingStep(
-      icon: Icons.public,
-      titleKey: 'manufacturing.steps.export.title',
-      descKey: 'manufacturing.steps.export.description',
-      imageUrl: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=400&h=220&fit=crop&auto=format',
-    ),
+    // _ManufacturingStep(
+    //   icon: Icons.public,
+    //   titleKey: 'manufacturing.steps.export.title',
+    //   descKey: 'manufacturing.steps.export.description',
+    //   imageUrl: 'https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=400&h=220&fit=crop&auto=format',
+    // ),
   ];
 
   @override

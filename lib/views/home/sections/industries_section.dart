@@ -20,9 +20,19 @@ class _IndustriesSectionState extends State<IndustriesSection> {
 
   static const _industries = [
     _IndustryItem(
-      icon: Icons.diamond_outlined,
-      titleKey: 'industries.fashion.title',
-      descKey: 'industries.fashion.description',
+      icon: Icons.man_2_rounded,
+      titleKey: 'industries.men_fashion.title',
+      descKey: 'industries.men_fashion.description',
+    ),
+    _IndustryItem(
+      icon: Icons.person_2_outlined,
+      titleKey: 'industries.kids_fashion.title',
+      descKey: 'industries.kids_fashion.description',
+    ),
+    _IndustryItem(
+      icon: Icons.woman_2_outlined,
+      titleKey: 'industries.women_fashion.title',
+      descKey: 'industries.women_fashion.description',
     ),
     _IndustryItem(
       icon: Icons.sports,

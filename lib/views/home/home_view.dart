@@ -87,13 +87,13 @@ class _HomeViewContentState extends State<_HomeViewContent> {
                 const HeroSection(),
                 const ProductsPreviewSection(),
                 const ManufacturingSection(),
-                const FactoryStatsSection(),
+                // const FactoryStatsSection(),
                 const IndustriesSection(),
                 const SustainabilitySection(),
                 const QualitySection(),
-                const GlobalReachSection(),
-                const ClientShowcaseSection(),
-                const ResourcesSection(),
+                // const GlobalReachSection(),
+                // const ClientShowcaseSection(),
+                // const ResourcesSection(),
                 const ContactSection(),
                 const _FooterWidget(),
               ],
@@ -207,7 +207,7 @@ class _FooterWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('YELMAR', style: AppTextStyles.logoText),
+        Text('Ylmar', style: AppTextStyles.logoText),
         const SizedBox(height: 12),
         Text(
           'footer.tagline'.tr(),

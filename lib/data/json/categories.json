@@ -1,11 +1,9 @@
 [
-  { "id": "all", "name": "All Products", "nameAr": "جميع المنتجات", "icon": "grid_view", "productCount": 8 },
-  { "id": "elastic", "name": "Elastic Bands", "nameAr": "أشرطة المطاط", "icon": "linear_scale", "productCount": 1 },
-  { "id": "jacquard", "name": "Jacquard Elastic", "nameAr": "إيلاستيك جاكار", "icon": "pattern", "productCount": 1 },
-  { "id": "waistband", "name": "Waistband", "nameAr": "إيلاستيك الخصر", "icon": "radio_button_unchecked", "productCount": 1 },
-  { "id": "drawcords", "name": "Drawcords", "nameAr": "حبال الشد", "icon": "timeline", "productCount": 1 },
-  { "id": "webbing", "name": "Webbing", "nameAr": "الشرائط النسيجية", "icon": "reorder", "productCount": 1 },
-  { "id": "tapes", "name": "Woven Tapes", "nameAr": "الشرائط المنسوجة", "icon": "horizontal_rule", "productCount": 1 },
-  { "id": "accessories", "name": "Garment Accessories", "nameAr": "إكسسوارات الملابس", "icon": "checkroom", "productCount": 1 },
-  { "id": "custom", "name": "Custom Solutions", "nameAr": "حلول مخصصة", "icon": "tune", "productCount": 1 }
+  { "id": "all", "name": "All Products", "nameAr": "جميع المنتجات", "icon": "grid_view", "productCount": 35 },
+  { "id": "tapes", "name": "Woven Tapes", "nameAr": "الشرائط النسيجية", "icon": "horizontal_rule", "productCount": 8 },
+  { "id": "cords", "name": "Cords & Drawcords", "nameAr": "الكردون والحبال", "icon": "timeline", "productCount": 6 },
+  { "id": "elastic", "name": "Elastics", "nameAr": "الاستك المطاط", "icon": "linear_scale", "productCount": 6 },
+  { "id": "printing", "name": "Printing", "nameAr": "الطباعة", "icon": "print", "productCount": 8 },
+  { "id": "dyeing", "name": "Dyeing", "nameAr": "الصباغة", "icon": "palette", "productCount": 5 },
+  { "id": "knitting", "name": "Knitting (Trico)", "nameAr": "التريكو", "icon": "pattern", "productCount": 2 }
 ]

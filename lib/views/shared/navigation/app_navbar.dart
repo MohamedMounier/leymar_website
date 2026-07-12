@@ -25,8 +25,8 @@ class _AppNavbarState extends State<AppNavbar> {
     _NavItem('nav.home', '/'),
     _NavItem('nav.products', '/products'),
     _NavItem('nav.about', '/about'),
-    _NavItem('nav.industries', '/industries'),
-    _NavItem('nav.factoryTour', '/factory-tour'),
+    // _NavItem('nav.industries', '/industries'),
+    // _NavItem('nav.factoryTour', '/factory-tour'),
     _NavItem('nav.contact', '/contact'),
   ];
 
@@ -111,7 +111,7 @@ class _AppNavbarState extends State<AppNavbar> {
       child: MouseRegion(
         cursor: SystemMouseCursors.click,
         child: Text(
-          'YELMAR',
+          'Ylmar',
           style: AppTextStyles.logoText,
         ),
       ),

@@ -14,8 +14,8 @@ class MobileDrawer extends StatelessWidget {
     _DrawerItem(Icons.home_outlined, 'nav.home', '/'),
     _DrawerItem(Icons.category_outlined, 'nav.products', '/products'),
     _DrawerItem(Icons.info_outline, 'nav.about', '/about'),
-    _DrawerItem(Icons.factory_outlined, 'nav.industries', '/industries'),
-    _DrawerItem(Icons.tour_outlined, 'nav.factoryTour', '/factory-tour'),
+    // _DrawerItem(Icons.factory_outlined, 'nav.industries', '/industries'),
+    // _DrawerItem(Icons.tour_outlined, 'nav.factoryTour', '/factory-tour'),
     _DrawerItem(Icons.contact_mail_outlined, 'nav.contact', '/contact'),
   ];
 
@@ -33,7 +33,7 @@ class MobileDrawer extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('YELMAR', style: AppTextStyles.logoText),
+                  Text('Ylmar', style: AppTextStyles.logoText),
                   IconButton(
                     onPressed: () => Navigator.pop(context),
                     icon: const Icon(Icons.close, color: AppColors.textPrimary),

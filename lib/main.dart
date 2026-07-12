@@ -15,13 +15,13 @@ void main() async {
       supportedLocales: const [Locale('en'), Locale('ar')],
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
-      child: const YelmarApp(),
+      child: const YlmarApp(),
     ),
   );
 }
 
-class YelmarApp extends StatelessWidget {
-  const YelmarApp({super.key});
+class YlmarApp extends StatelessWidget {
+  const YlmarApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class YelmarApp extends StatelessWidget {
             BlocProvider(create: (_) => CartCubit()),
           ],
           child: MaterialApp.router(
-            title: 'Yelmar',
+            title: 'Ylmar',
             theme: AppTheme.theme,
             routerConfig: AppRouter.router,
             localizationsDelegates: context.localizationDelegates,
