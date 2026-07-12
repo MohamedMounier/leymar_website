@@ -1,0 +1,1066 @@
+[
+  {
+    "id": 1,
+    "name": "Cleaning Tape",
+    "nameAr": "شريط تنظيف",
+    "category": "tapes",
+    "description": "Densely woven cleaning tape engineered for abrasion, lint pick-up and repeated industrial washing without fraying.",
+    "descriptionAr": "شريط تنظيف عالي الكثافة مصمم لمقاومة الاحتكاك والتقاط الوبر وتحمل الغسيل الصناعي المتكرر دون تنسيل.",
+    "specifications": {
+      "material": "Polyester / Spun / Raw Cotton",
+      "weave": "High-density plain weave",
+      "minWidth": "10mm",
+      "maxWidth": "100mm",
+      "finish": "Raw, Softened, Heat-set",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن خام",
+      "النسيج": "نسيج سادة عالي الكثافة",
+      "أدنى عرض": "10 ملم",
+      "أقصى عرض": "100 ملم",
+      "التشطيب": "خام، منعّم، مثبت حرارياً",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["industrial", "furniture"],
+    "applicationsAr": ["الصناعية", "الأثاث"],
+    "colors": ["#FFFFFF", "#F3ECDF", "#808080", "#000000", "#2C3E50"],
+    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "75mm", "100mm"],
+    "featured": false,
+    "image": "assets/images/products/cleaning_tape.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Belt Tape",
+    "nameAr": "شريط حزام",
+    "category": "tapes",
+    "description": "Heavy-duty woven belt tape with high tensile strength and dimensional stability, built for belts, straps and load-bearing trims.",
+    "descriptionAr": "شريط حزام منسوج فائق التحمل بقوة شد عالية وثبات في الأبعاد، مصمم للأحزمة والسيور والزخارف الحاملة للأوزان.",
+    "specifications": {
+      "material": "Polyester / Spun / Raw Cotton",
+      "weave": "Twill / Plain, reinforced edges",
+      "minWidth": "15mm",
+      "maxWidth": "80mm",
+      "breakStrength": "Up to 1200kg",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن خام",
+      "النسيج": "تويل / سادة بحواف مقواة",
+      "أدنى عرض": "15 ملم",
+      "أقصى عرض": "80 ملم",
+      "قوة الشد": "حتى 1200 كجم",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "industrial", "military"],
+    "applicationsAr": ["الأزياء", "الصناعية", "العسكرية"],
+    "colors": ["#000000", "#4A4A4A", "#8B6914", "#2C3E50", "#FFFFFF"],
+    "widths": ["15mm", "20mm", "25mm", "32mm", "38mm", "50mm", "60mm", "80mm"],
+    "featured": true,
+    "image": "assets/images/products/belt_tape.jpg"
+  },
+  {
+    "id": 3,
+    "name": "PEA Tape",
+    "nameAr": "شريط PEA",
+    "category": "tapes",
+    "description": "Fine PEA tape with a clean, uniform surface and soft hand — ideal for garment finishing, binding and technical trims.",
+    "descriptionAr": "شريط PEA ناعم بسطح نظيف ومنتظم وملمس طري — مثالي لتشطيب الملابس والحواف والزخارف الفنية.",
+    "specifications": {
+      "material": "Polyester / Spun",
+      "surface": "Smooth, uniform",
+      "minWidth": "5mm",
+      "maxWidth": "50mm",
+      "finish": "Matte / Satin",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن",
+      "السطح": "أملس ومنتظم",
+      "أدنى عرض": "5 ملم",
+      "أقصى عرض": "50 ملم",
+      "التشطيب": "مط / ساتان",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "underwear", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
+    "colors": ["#FFFFFF", "#000000", "#C79A3B", "#E0BC74", "#55607A"],
+    "widths": ["5mm", "8mm", "10mm", "15mm", "20mm", "25mm", "38mm", "50mm"],
+    "featured": false,
+    "image": "assets/images/products/pea_tape.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tubular Tape",
+    "nameAr": "شريط خرطوم",
+    "category": "tapes",
+    "description": "Seamless tubular woven tape with a hollow round-flat profile, delivering a soft edge and premium drape on finished garments.",
+    "descriptionAr": "شريط خرطوم منسوج دون خياطة بمقطع مجوف مستدير مسطح، يمنح حافة ناعمة وانسدالاً فاخراً على الملابس.",
+    "specifications": {
+      "material": "Polyester / Spun / Raw Cotton",
+      "construction": "Seamless tubular",
+      "minWidth": "6mm",
+      "maxWidth": "40mm",
+      "handFeel": "Soft, edge-free",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن خام",
+      "التركيب": "خرطوم بدون خياطة",
+      "أدنى عرض": "6 ملم",
+      "أقصى عرض": "40 ملم",
+      "الملمس": "ناعم بلا حواف",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
+    "colors": ["#FFFFFF", "#000000", "#C79A3B", "#8B0000", "#0D2D66"],
+    "widths": ["6mm", "8mm", "10mm", "12mm", "15mm", "20mm", "25mm", "40mm"],
+    "featured": false,
+    "image": "assets/images/products/tubular_tape.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cordella Tape",
+    "nameAr": "شريط كورديلا",
+    "category": "tapes",
+    "description": "Decorative Cordella tape with a raised ribbed structure and luxurious sheen, developed for statement trims and premium packaging.",
+    "descriptionAr": "شريط كورديلا زخرفي بتركيب مضلع بارز ولمعة فاخرة، مصمم للزخارف المميزة والتغليف الراقي.",
+    "specifications": {
+      "material": "Polyester / Spun",
+      "structure": "Ribbed / corded",
+      "minWidth": "8mm",
+      "maxWidth": "60mm",
+      "finish": "Satin, Matte, Metallic",
+      "minOrder": "500m per design"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن",
+      "التركيب": "مضلع / حبلي",
+      "أدنى عرض": "8 ملم",
+      "أقصى عرض": "60 ملم",
+      "التشطيب": "ساتان، مط، معدني",
+      "الحد الأدنى للطلب": "500 متر لكل تصميم"
+    },
+    "applications": ["fashion", "furniture"],
+    "applicationsAr": ["الأزياء", "الأثاث"],
+    "colors": ["#C79A3B", "#E0BC74", "#000000", "#FFFFFF", "#8B0000", "#0D2D66"],
+    "widths": ["8mm", "10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "featured": true,
+    "image": "assets/images/products/cordella_tape.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bag Tape",
+    "nameAr": "شريط شنطة",
+    "category": "tapes",
+    "description": "Rugged bag tape engineered for handles, shoulder straps and luggage — abrasion resistant with excellent load retention.",
+    "descriptionAr": "شريط شنطة متين مصمم للمقابض وأحزمة الكتف والحقائب — مقاوم للاحتكاك مع قدرة ممتازة على تحمل الأحمال.",
+    "specifications": {
+      "material": "Polyester / Spun / Raw Cotton",
+      "weave": "Heavy twill",
+      "minWidth": "20mm",
+      "maxWidth": "100mm",
+      "breakStrength": "Up to 2000kg",
+      "minOrder": "300m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن خام",
+      "النسيج": "تويل ثقيل",
+      "أدنى عرض": "20 ملم",
+      "أقصى عرض": "100 ملم",
+      "قوة الشد": "حتى 2000 كجم",
+      "الحد الأدنى للطلب": "300 متر لكل لون"
+    },
+    "applications": ["industrial", "fashion", "military"],
+    "applicationsAr": ["الصناعية", "الأزياء", "العسكرية"],
+    "colors": ["#000000", "#4A4A4A", "#2C3E50", "#1B5E20", "#8B6914"],
+    "widths": ["20mm", "25mm", "32mm", "38mm", "50mm", "75mm", "100mm"],
+    "featured": false,
+    "image": "assets/images/products/bag_tape.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Checkerboard Tape",
+    "nameAr": "شريط شطرنج",
+    "category": "tapes",
+    "description": "Two-tone checkerboard woven tape — a graphic, contrast-woven design that reads as a signature detail on any garment.",
+    "descriptionAr": "شريط منسوج بنقشة الشطرنج بلونين — تصميم جرافيكي متباين يظهر كتفصيلة مميزة على أي قطعة ملابس.",
+    "specifications": {
+      "material": "Polyester / Spun",
+      "pattern": "Woven checkerboard (2-color)",
+      "minWidth": "10mm",
+      "maxWidth": "60mm",
+      "customPattern": "Available",
+      "minOrder": "500m per design"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن",
+      "النقشة": "شطرنج منسوج (لونان)",
+      "أدنى عرض": "10 ملم",
+      "أقصى عرض": "60 ملم",
+      "نقشة مخصصة": "متاحة",
+      "الحد الأدنى للطلب": "500 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#0D2D66", "#8B0000"],
+    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "featured": true,
+    "image": "assets/images/products/checkerboard_tape.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mattress Edge Tape",
+    "nameAr": "شريط حرف المرتبة",
+    "category": "tapes",
+    "description": "Structured mattress edge tape delivering a crisp, straight border with high stitch retention across long production runs.",
+    "descriptionAr": "شريط حرف المرتبة بتركيب متماسك يمنح حافة مستقيمة حادة مع ثبات عالٍ للغرز عبر دورات الإنتاج الطويلة.",
+    "specifications": {
+      "material": "Polyester / Spun / Raw Cotton",
+      "structure": "Stiffened edge-binding",
+      "minWidth": "20mm",
+      "maxWidth": "80mm",
+      "stitchRetention": "High",
+      "minOrder": "1000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن خام",
+      "التركيب": "حافة مقواة للتجليد",
+      "أدنى عرض": "20 ملم",
+      "أقصى عرض": "80 ملم",
+      "ثبات الغرز": "عالٍ",
+      "الحد الأدنى للطلب": "1000 متر لكل لون"
+    },
+    "applications": ["furniture", "industrial"],
+    "applicationsAr": ["الأثاث", "الصناعية"],
+    "colors": ["#FFFFFF", "#F3ECDF", "#C79A3B", "#0D2D66", "#808080"],
+    "widths": ["20mm", "25mm", "38mm", "50mm", "60mm", "80mm"],
+    "featured": false,
+    "image": "assets/images/products/mattress_edge_tape.jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Twisted Cord",
+    "nameAr": "كردون مبروم",
+    "category": "cords",
+    "description": "Precision twisted cord produced in a full range of diameters and twist patterns, with a consistent spiral and clean, stable surface.",
+    "descriptionAr": "كردون مبروم بدقة عالية يُنتج بمجموعة كاملة من الأقطار ونقشات البرم المختلفة، بلولب منتظم وسطح ثابت نظيف.",
+    "specifications": {
+      "material": "Polyester / Spun / Cotton",
+      "sizes": "Full range of diameters",
+      "patterns": "Multiple twist patterns available",
+      "minDiameter": "2mm",
+      "maxDiameter": "12mm",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن",
+      "الأحجام": "أحجام مختلفة",
+      "النقشات": "نقشات برم مختلفة",
+      "أدنى قطر": "2 ملم",
+      "أقصى قطر": "12 ملم",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "furniture"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الأثاث"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#8B0000", "#0D2D66", "#4CAF50"],
+    "widths": ["2mm", "3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "featured": true,
+    "image": "assets/images/products/twisted_cord.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Flat Tape Cord",
+    "nameAr": "كردون مبطط شريط",
+    "category": "cords",
+    "description": "Flat woven drawcord that lies perfectly against the garment and resists rolling, offered in multiple sizes and woven patterns.",
+    "descriptionAr": "كردون مبطط منسوج ينبسط تماماً على الملابس ويقاوم الالتفاف، متوفر بأحجام ونقشات منسوجة مختلفة.",
+    "specifications": {
+      "material": "Polyester / Spun / Cotton",
+      "profile": "Flat",
+      "sizes": "Full range of widths",
+      "patterns": "Multiple woven patterns available",
+      "minWidth": "5mm",
+      "maxWidth": "25mm",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن",
+      "المقطع": "مسطح",
+      "الأحجام": "أحجام مختلفة",
+      "النقشات": "نقشات منسوجة مختلفة",
+      "أدنى عرض": "5 ملم",
+      "أقصى عرض": "25 ملم",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#2196F3", "#E91E63"],
+    "widths": ["5mm", "8mm", "10mm", "12mm", "15mm", "20mm", "25mm"],
+    "featured": true,
+    "image": "assets/images/products/flat_tape_cord.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Tubular Cord",
+    "nameAr": "كردون خرطوم",
+    "category": "cords",
+    "description": "Hollow tubular cord with a soft, rounded body and seamless surface — available in a full range of sizes and woven patterns.",
+    "descriptionAr": "كردون خرطوم مجوف بجسم مستدير ناعم وسطح بلا خياطة — متوفر بأحجام ونقشات مختلفة.",
+    "specifications": {
+      "material": "Polyester / Spun / Cotton",
+      "construction": "Seamless tubular",
+      "sizes": "Full range of diameters",
+      "patterns": "Multiple patterns available",
+      "minDiameter": "3mm",
+      "maxDiameter": "15mm",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن",
+      "التركيب": "خرطوم بدون خياطة",
+      "الأحجام": "أحجام مختلفة",
+      "النقشات": "نقشات مختلفة",
+      "أدنى قطر": "3 ملم",
+      "أقصى قطر": "15 ملم",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#55607A", "#8B0000"],
+    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm", "15mm"],
+    "featured": false,
+    "image": "assets/images/products/tubular_cord.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Leak-Proof Stitched Cord",
+    "nameAr": "كردون خياطة مانع تسريب",
+    "category": "cords",
+    "description": "Sealed stitched cord engineered as a leak-proof barrier, holding its seal under pressure and repeated flexing.",
+    "descriptionAr": "كردون خياطة محكم مصمم كحاجز مانع للتسريب، يحافظ على إحكامه تحت الضغط والثني المتكرر.",
+    "specifications": {
+      "material": "Polyester / Technical yarns",
+      "function": "Leak-proof sealing",
+      "minDiameter": "3mm",
+      "maxDiameter": "12mm",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / خيوط فنية",
+      "الوظيفة": "إحكام مانع للتسريب",
+      "أدنى قطر": "3 ملم",
+      "أقصى قطر": "12 ملم",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["industrial", "medical", "furniture"],
+    "applicationsAr": ["الصناعية", "الطبية", "الأثاث"],
+    "colors": ["#FFFFFF", "#000000", "#808080", "#0D2D66"],
+    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "featured": false,
+    "image": "assets/images/products/leak_proof_cord.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Twisted Elastic Cord for Medical Masks",
+    "nameAr": "كردون استك مبروم للكمامة الطبية",
+    "category": "cords",
+    "description": "Soft twisted elastic ear-loop cord for medical masks — skin-friendly, non-irritating, with consistent stretch and recovery.",
+    "descriptionAr": "كردون استك مبروم ناعم لحلقات أذن الكمامات الطبية — لطيف على البشرة وغير مهيج، بتمدد واسترداد متسقين.",
+    "specifications": {
+      "material": "Polyester / Spandex",
+      "handFeel": "Soft, skin-friendly",
+      "elongation": "150–250%",
+      "recovery": "95%+",
+      "minDiameter": "2.5mm",
+      "maxDiameter": "5mm",
+      "minOrder": "5000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / سباندكس",
+      "الملمس": "ناعم ولطيف على البشرة",
+      "قابلية التمدد": "150–250%",
+      "الاسترداد": "95%+",
+      "أدنى قطر": "2.5 ملم",
+      "أقصى قطر": "5 ملم",
+      "الحد الأدنى للطلب": "5000 متر لكل لون"
+    },
+    "applications": ["medical", "industrial"],
+    "applicationsAr": ["الطبية", "الصناعية"],
+    "colors": ["#FFFFFF", "#0D2D66", "#000000", "#4CAF50", "#F3ECDF"],
+    "widths": ["2.5mm", "3mm", "3.5mm", "4mm", "5mm"],
+    "featured": false,
+    "image": "assets/images/products/medical_mask_cord.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Cord Finishing — Tips, Capsules & Logo Printing",
+    "nameAr": "تشطيب الكردون — نهايات وكبسولات وطباعة لوجو",
+    "category": "cords",
+    "description": "Complete cord finishing service: transparent capsules, plastic and metal end tips, and custom logo printing — delivered ready for the production line.",
+    "descriptionAr": "خدمة تشطيب متكاملة للكردون: كبسولة شفافة، وتركيب نهايات بلاستيك وحديد، وطباعة اللوجو المخصص — تُسلَّم جاهزة لخط الإنتاج.",
+    "specifications": {
+      "capsule": "Transparent capsule",
+      "endTips": "Plastic & metal tips",
+      "branding": "Custom logo printing",
+      "tipFinish": "Gold, Silver, Black, Custom",
+      "minOrder": "By item type"
+    },
+    "specificationsAr": {
+      "الكبسولة": "كبسولة شفافة",
+      "النهايات": "نهايات بلاستيك وحديد",
+      "العلامة": "طباعة اللوجو مخصصة",
+      "تشطيب النهاية": "ذهبي، فضي، أسود، مخصص",
+      "الحد الأدنى للطلب": "حسب نوع المنتج"
+    },
+    "applications": ["fashion", "sportswear", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
+    "colors": ["#C79A3B", "#E0BC74", "#808080", "#000000", "#FFFFFF"],
+    "widths": ["Made to cord size"],
+    "widthsAr": ["حسب مقاس الكردون"],
+    "featured": true,
+    "image": "assets/images/products/cord_finishing.jpg"
+  },
+
+  {
+    "id": 15,
+    "name": "Crochet Elastic",
+    "nameAr": "استك كورشية",
+    "category": "elastic",
+    "description": "Crochet-knitted elastic offered across a full range of softness grades, from featherlight next-to-skin to firm structural hold.",
+    "descriptionAr": "استك كورشية مُحاك بدرجات نعومة مختلفة، من الخفيف جداً الملامس للبشرة إلى الثابت القوي للتثبيت الهيكلي.",
+    "specifications": {
+      "material": "Polyester / Rubber / Spandex",
+      "softness": "Multiple softness grades available",
+      "minWidth": "6mm",
+      "maxWidth": "60mm",
+      "elongation": "60–90%",
+      "recovery": "96%+",
+      "minOrder": "1000m per width"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / مطاط / سباندكس",
+      "النعومة": "درجات نعومة مختلفة",
+      "أدنى عرض": "6 ملم",
+      "أقصى عرض": "60 ملم",
+      "قابلية التمدد": "60–90%",
+      "الاسترداد": "96%+",
+      "الحد الأدنى للطلب": "1000 متر لكل عرض"
+    },
+    "applications": ["fashion", "underwear", "sportswear", "medical"],
+    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية", "الطبية"],
+    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#808080", "#C79A3B"],
+    "widths": ["6mm", "10mm", "12mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "featured": true,
+    "image": "assets/images/products/crochet_elastic.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Woven Elastic",
+    "nameAr": "استيك نسيج",
+    "category": "elastic",
+    "description": "High-quality woven elastic with dense construction, superior edge stability and tension that holds through the life of the garment.",
+    "descriptionAr": "استيك نسيج عالي الجودة بتركيب كثيف وثبات ممتاز للحواف وشد يدوم طوال عمر القطعة.",
+    "specifications": {
+      "material": "Polyester / Rubber",
+      "quality": "High quality, dense weave",
+      "minWidth": "10mm",
+      "maxWidth": "100mm",
+      "elongation": "50–70%",
+      "recovery": "98%+",
+      "minOrder": "1000m per width"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / مطاط",
+      "الجودة": "عالي الجودة، نسيج كثيف",
+      "أدنى عرض": "10 ملم",
+      "أقصى عرض": "100 ملم",
+      "قابلية التمدد": "50–70%",
+      "الاسترداد": "98%+",
+      "الحد الأدنى للطلب": "1000 متر لكل عرض"
+    },
+    "applications": ["fashion", "sportswear", "underwear", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية", "الصناعية"],
+    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B", "#0D2D66"],
+    "widths": ["10mm", "15mm", "20mm", "25mm", "30mm", "38mm", "50mm", "75mm", "100mm"],
+    "featured": true,
+    "image": "assets/images/products/woven_elastic.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Sandwich Elastic",
+    "nameAr": "استك سندوتش",
+    "category": "elastic",
+    "description": "Layered sandwich elastic with a soft picot or plush face on both sides — designed for direct skin contact in lingerie and activewear.",
+    "descriptionAr": "استك سندوتش متعدد الطبقات بوجه ناعم من الجانبين — مصمم للملامسة المباشرة للبشرة في الملابس الداخلية والرياضية.",
+    "specifications": {
+      "material": "Polyester / Nylon / Spandex",
+      "construction": "Double-faced sandwich",
+      "minWidth": "10mm",
+      "maxWidth": "60mm",
+      "elongation": "80–120%",
+      "recovery": "96%+",
+      "minOrder": "1000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / نايلون / سباندكس",
+      "التركيب": "سندوتش بوجهين",
+      "أدنى عرض": "10 ملم",
+      "أقصى عرض": "60 ملم",
+      "قابلية التمدد": "80–120%",
+      "الاسترداد": "96%+",
+      "الحد الأدنى للطلب": "1000 متر لكل لون"
+    },
+    "applications": ["underwear", "sportswear", "fashion"],
+    "applicationsAr": ["الملابس الداخلية", "الملابس الرياضية", "الأزياء"],
+    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#E0BC74", "#8B0000"],
+    "widths": ["10mm", "15mm", "20mm", "25mm", "30mm", "40mm", "50mm", "60mm"],
+    "featured": true,
+    "image": "assets/images/products/sandwich_elastic.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Twisted Elastic Cord",
+    "nameAr": "استك مبروم",
+    "category": "elastic",
+    "description": "Round twisted elastic cord with a uniform spiral and powerful, repeatable snap-back across thousands of stretch cycles.",
+    "descriptionAr": "استك مبروم مستدير بلولب منتظم واسترداد قوي ومتكرر عبر آلاف دورات الشد.",
+    "specifications": {
+      "material": "Polyester / Rubber / Spandex",
+      "profile": "Round twisted",
+      "minDiameter": "2mm",
+      "maxDiameter": "10mm",
+      "elongation": "120–200%",
+      "recovery": "95%+",
+      "minOrder": "2000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / مطاط / سباندكس",
+      "المقطع": "مبروم مستدير",
+      "أدنى قطر": "2 ملم",
+      "أقصى قطر": "10 ملم",
+      "قابلية التمدد": "120–200%",
+      "الاسترداد": "95%+",
+      "الحد الأدنى للطلب": "2000 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "medical", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الطبية", "الصناعية"],
+    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B"],
+    "widths": ["2mm", "3mm", "4mm", "5mm", "6mm", "8mm", "10mm"],
+    "featured": false,
+    "image": "assets/images/products/twisted_elastic.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jacquard Elastic",
+    "nameAr": "استك جاكار",
+    "category": "elastic",
+    "description": "Premium jacquard elastic woven with intricate custom patterns and logos — the signature detail of high-end fashion and luxury garments.",
+    "descriptionAr": "استك جاكار فاخر منسوج بأنماط وشعارات مخصصة معقدة — التفصيلة المميزة في الأزياء الراقية والملابس الفاخرة.",
+    "specifications": {
+      "material": "Polyester / Nylon Blend",
+      "pattern": "Fully custom jacquard, logos & motifs",
+      "minWidth": "15mm",
+      "maxWidth": "100mm",
+      "elongation": "40–60%",
+      "recovery": "95%+",
+      "minOrder": "500m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "خلط بوليستر / نايلون",
+      "النقشة": "جاكار مخصص بالكامل، شعارات وزخارف",
+      "أدنى عرض": "15 ملم",
+      "أقصى عرض": "100 ملم",
+      "قابلية التمدد": "40–60%",
+      "الاسترداد": "95%+",
+      "الحد الأدنى للطلب": "500 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#071B3B", "#8B0000", "#2C3E50"],
+    "widths": ["15mm", "20mm", "25mm", "30mm", "40mm", "50mm", "75mm", "100mm"],
+    "featured": true,
+    "image": "assets/images/products/jacquard_elastic.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Buttonhole Elastic",
+    "nameAr": "استك عروة",
+    "category": "elastic",
+    "description": "Buttonhole elastic with cleanly formed, reinforced openings at precise intervals — adjustable, durable and finish-ready.",
+    "descriptionAr": "استك عروة بفتحات مقواة ومشكّلة بدقة على مسافات منتظمة — قابل للضبط، متين، وجاهز للتشطيب.",
+    "specifications": {
+      "material": "Polyester / Rubber",
+      "buttonholePitch": "Customizable spacing",
+      "minWidth": "15mm",
+      "maxWidth": "25mm",
+      "elongation": "60–80%",
+      "recovery": "96%+",
+      "minOrder": "1000m per width"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / مطاط",
+      "تباعد العروات": "قابل للتخصيص",
+      "أدنى عرض": "15 ملم",
+      "أقصى عرض": "25 ملم",
+      "قابلية التمدد": "60–80%",
+      "الاسترداد": "96%+",
+      "الحد الأدنى للطلب": "1000 متر لكل عرض"
+    },
+    "applications": ["fashion", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الداخلية"],
+    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#808080"],
+    "widths": ["15mm", "18mm", "20mm", "25mm"],
+    "featured": false,
+    "image": "assets/images/products/buttonhole_elastic.jpg"
+  },
+
+  {
+    "id": 21,
+    "name": "Cord Printing",
+    "nameAr": "طباعة كردون",
+    "category": "printing",
+    "description": "Precision printing directly onto cords — logos, repeats and sizing marks applied with perfect registration around the cord body.",
+    "descriptionAr": "طباعة دقيقة مباشرة على الكردون — شعارات وتكرارات وعلامات مقاسات بمحاذاة مثالية حول جسم الكردون.",
+    "specifications": {
+      "substrate": "Twisted, flat & tubular cords",
+      "technique": "Rotary / transfer printing",
+      "colors": "Up to 6 colors",
+      "colorMatching": "Pantone matching",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "كردون مبروم ومبطط وخرطوم",
+      "التقنية": "طباعة دوارة / نقل حراري",
+      "عدد الألوان": "حتى 6 ألوان",
+      "مطابقة اللون": "مطابقة بانتون",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["Made to cord size"],
+    "widthsAr": ["حسب مقاس الكردون"],
+    "featured": true,
+    "image": "assets/images/products/cord_printing.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Tape Printing",
+    "nameAr": "طباعة شريط",
+    "category": "printing",
+    "description": "Edge-to-edge printing on woven tapes with sharp detail and high wash fastness — ideal for branded trims and labels.",
+    "descriptionAr": "طباعة من الحافة إلى الحافة على الشرائط المنسوجة بتفاصيل حادة وثبات عالٍ للغسيل — مثالية للزخارف والملصقات المميزة بالعلامة.",
+    "specifications": {
+      "substrate": "Woven tapes",
+      "technique": "Rotary / screen / transfer",
+      "colors": "Up to 8 colors",
+      "washFastness": "Grade 4–5",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "الشرائط المنسوجة",
+      "التقنية": "دوارة / شاشة حريرية / نقل حراري",
+      "عدد الألوان": "حتى 8 ألوان",
+      "ثبات الغسيل": "درجة 4–5",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["5mm – 100mm"],
+    "featured": true,
+    "image": "assets/images/products/tape_printing.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Crochet Elastic Printing",
+    "nameAr": "طباعة استك كورشية",
+    "category": "printing",
+    "description": "Printing engineered for crochet elastic — ink formulated to stretch and recover with the band without cracking or fading.",
+    "descriptionAr": "طباعة مصممة خصيصاً للاستك الكورشية — حبر يتمدد ويسترد مع الشريط دون تشقق أو بهتان.",
+    "specifications": {
+      "substrate": "Crochet elastic",
+      "inkType": "High-elasticity ink",
+      "stretchResistance": "No cracking under full elongation",
+      "colors": "Up to 6 colors",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "استك كورشية",
+      "نوع الحبر": "حبر عالي المرونة",
+      "مقاومة الشد": "لا يتشقق عند التمدد الكامل",
+      "عدد الألوان": "حتى 6 ألوان",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "underwear", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["6mm – 60mm"],
+    "featured": false,
+    "image": "assets/images/products/crochet_elastic_printing.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Woven Elastic Printing",
+    "nameAr": "طباعة استك نسيج",
+    "category": "printing",
+    "description": "Crisp, high-opacity printing on woven elastic — brand marks stay legible and vivid through the full stretch cycle.",
+    "descriptionAr": "طباعة حادة وعالية التغطية على الاستيك النسيج — تبقى العلامات واضحة وزاهية طوال دورة التمدد الكاملة.",
+    "specifications": {
+      "substrate": "Woven elastic",
+      "inkType": "High-opacity elastic ink",
+      "colors": "Up to 8 colors",
+      "washFastness": "Grade 4–5",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "استيك نسيج",
+      "نوع الحبر": "حبر مطاطي عالي التغطية",
+      "عدد الألوان": "حتى 8 ألوان",
+      "ثبات الغسيل": "درجة 4–5",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["10mm – 100mm"],
+    "featured": false,
+    "image": "assets/images/products/woven_elastic_printing.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Gipex Elastic Printing",
+    "nameAr": "طباعة استك جيبيكس",
+    "category": "printing",
+    "description": "Specialist printing on Gipex elastic, tuned to the substrate's surface for maximum ink adhesion and a clean, saturated finish.",
+    "descriptionAr": "طباعة متخصصة على استك الجيبيكس، معايرة لسطح الخامة لأقصى التصاق للحبر وتشطيب نظيف ومشبع.",
+    "specifications": {
+      "substrate": "Gipex elastic",
+      "adhesion": "Substrate-tuned ink system",
+      "colors": "Up to 6 colors",
+      "colorMatching": "Pantone matching",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "استك جيبيكس",
+      "الالتصاق": "نظام حبر معاير للخامة",
+      "عدد الألوان": "حتى 6 ألوان",
+      "مطابقة اللون": "مطابقة بانتون",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "underwear", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["10mm – 60mm"],
+    "featured": false,
+    "image": "assets/images/products/gipex_elastic_printing.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Knit (Trico) Printing",
+    "nameAr": "طباعة تريكو",
+    "category": "printing",
+    "description": "Printing on knitted trico with soft-hand inks that move with the loop structure — full coverage without stiffening the fabric.",
+    "descriptionAr": "طباعة على التريكو بأحبار ناعمة الملمس تتحرك مع بنية الغرز — تغطية كاملة دون تقسية القماش.",
+    "specifications": {
+      "substrate": "Knitted trico",
+      "inkType": "Soft-hand flexible ink",
+      "colors": "Up to 8 colors",
+      "handFeel": "Soft, non-stiffening",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "السطح": "تريكو محاك",
+      "نوع الحبر": "حبر مرن ناعم الملمس",
+      "عدد الألوان": "حتى 8 ألوان",
+      "الملمس": "ناعم وغير مقسٍّ",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["Pantone matched"],
+    "colorsAr": ["مطابقة بانتون"],
+    "widths": ["Made to order"],
+    "widthsAr": ["حسب الطلب"],
+    "featured": false,
+    "image": "assets/images/products/trico_printing.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Embossed Printing",
+    "nameAr": "طباعة بارزة",
+    "category": "printing",
+    "description": "Raised embossed printing that lifts logos and motifs off the surface, adding tactile dimension and a premium, sculpted finish.",
+    "descriptionAr": "طباعة بارزة ترفع الشعارات والزخارف عن السطح، مضيفةً بعداً ملموساً وتشطيباً فاخراً منحوتاً.",
+    "specifications": {
+      "technique": "3D raised emboss",
+      "substrate": "Tapes, elastics, cords",
+      "reliefHeight": "0.3–1.2mm",
+      "finish": "Matte, Gloss, Metallic",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "التقنية": "بروز ثلاثي الأبعاد",
+      "السطح": "شرائط، استك، كردون",
+      "ارتفاع البروز": "0.3–1.2 ملم",
+      "التشطيب": "مط، لامع، معدني",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["#C79A3B", "#E0BC74", "#000000", "#FFFFFF", "#0D2D66"],
+    "widths": ["Made to order"],
+    "widthsAr": ["حسب الطلب"],
+    "featured": true,
+    "image": "assets/images/products/embossed_printing.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Engraved (Debossed) Printing",
+    "nameAr": "طباعة محفورة",
+    "category": "printing",
+    "description": "Deep-engraved debossing that presses the design into the material — a quiet, permanent mark with no ink to wear away.",
+    "descriptionAr": "طباعة محفورة بعمق تضغط التصميم داخل الخامة — علامة هادئة ودائمة بلا حبر يمكن أن يزول.",
+    "specifications": {
+      "technique": "Deep deboss / engraving",
+      "substrate": "Tapes, elastics, cords",
+      "depth": "0.3–1.0mm",
+      "durability": "Permanent — no ink wear",
+      "minOrder": "1000m per design"
+    },
+    "specificationsAr": {
+      "التقنية": "حفر / غائر عميق",
+      "السطح": "شرائط، استك، كردون",
+      "العمق": "0.3–1.0 ملم",
+      "المتانة": "دائمة — بلا تآكل حبر",
+      "الحد الأدنى للطلب": "1000 متر لكل تصميم"
+    },
+    "applications": ["fashion", "industrial"],
+    "applicationsAr": ["الأزياء", "الصناعية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#55607A"],
+    "widths": ["Made to order"],
+    "widthsAr": ["حسب الطلب"],
+    "featured": false,
+    "image": "assets/images/products/engraved_printing.jpg"
+  },
+
+  {
+    "id": 29,
+    "name": "Polyester Yarn Dyeing",
+    "nameAr": "صباغة خيوط بوليستر",
+    "category": "dyeing",
+    "description": "High-temperature polyester yarn dyeing with laboratory-controlled recipes, delivering exact shade repeatability batch after batch.",
+    "descriptionAr": "صباغة خيوط بوليستر بدرجات حرارة عالية بوصفات مضبوطة معملياً، تمنح تكراراً دقيقاً للدرجة اللونية في كل تشغيلة.",
+    "specifications": {
+      "process": "High-temperature (HT) dyeing",
+      "colorMatching": "Full Pantone / lab-dip matching",
+      "fastness": "Wash & light fastness grade 4–5",
+      "batchRepeat": "Exact shade repeatability",
+      "minOrder": "By batch"
+    },
+    "specificationsAr": {
+      "العملية": "صباغة بدرجة حرارة عالية",
+      "مطابقة اللون": "مطابقة بانتون كاملة / عينات معملية",
+      "الثبات": "ثبات الغسيل والضوء درجة 4–5",
+      "تكرار التشغيلة": "تطابق دقيق للدرجة اللونية",
+      "الحد الأدنى للطلب": "حسب التشغيلة"
+    },
+    "applications": ["fashion", "sportswear", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
+    "colors": ["Any Pantone shade"],
+    "colorsAr": ["أي درجة بانتون"],
+    "widths": ["N/A"],
+    "widthsAr": ["غير مطبق"],
+    "featured": true,
+    "image": "assets/images/products/polyester_yarn_dyeing.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Spun Yarn Dyeing",
+    "nameAr": "صباغة خيوط أسبن",
+    "category": "dyeing",
+    "description": "Spun yarn dyeing tuned for even penetration through the staple structure — deep, uniform color with no core show-through.",
+    "descriptionAr": "صباغة خيوط الأسبن معايرة لاختراق متساوٍ عبر بنية الخيط — لون عميق ومنتظم دون ظهور للقلب.",
+    "specifications": {
+      "process": "Package / hank dyeing",
+      "penetration": "Full-core even penetration",
+      "colorMatching": "Full Pantone / lab-dip matching",
+      "fastness": "Wash & light fastness grade 4–5",
+      "minOrder": "By batch"
+    },
+    "specificationsAr": {
+      "العملية": "صباغة بكر / شلل",
+      "الاختراق": "اختراق متساوٍ حتى القلب",
+      "مطابقة اللون": "مطابقة بانتون كاملة / عينات معملية",
+      "الثبات": "ثبات الغسيل والضوء درجة 4–5",
+      "الحد الأدنى للطلب": "حسب التشغيلة"
+    },
+    "applications": ["fashion", "industrial", "furniture"],
+    "applicationsAr": ["الأزياء", "الصناعية", "الأثاث"],
+    "colors": ["Any Pantone shade"],
+    "colorsAr": ["أي درجة بانتون"],
+    "widths": ["N/A"],
+    "widthsAr": ["غير مطبق"],
+    "featured": false,
+    "image": "assets/images/products/spun_yarn_dyeing.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Zipper Tape Dyeing",
+    "nameAr": "صباغة شريط السوسته",
+    "category": "dyeing",
+    "description": "Zipper tape dyeing with tight shade control edge to edge, so the tape matches the garment and the slider every single time.",
+    "descriptionAr": "صباغة شريط السوسته بتحكم دقيق في الدرجة من حافة لأخرى، ليطابق الشريط القطعة والسحّاب في كل مرة.",
+    "specifications": {
+      "substrate": "Zipper tape",
+      "shadeControl": "Edge-to-edge uniformity",
+      "colorMatching": "Full Pantone / lab-dip matching",
+      "fastness": "Wash & rub fastness grade 4–5",
+      "minOrder": "By batch"
+    },
+    "specificationsAr": {
+      "السطح": "شريط السوسته",
+      "ضبط الدرجة": "انتظام من حافة لأخرى",
+      "مطابقة اللون": "مطابقة بانتون كاملة / عينات معملية",
+      "الثبات": "ثبات الغسيل والحك درجة 4–5",
+      "الحد الأدنى للطلب": "حسب التشغيلة"
+    },
+    "applications": ["fashion", "sportswear", "industrial"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
+    "colors": ["Any Pantone shade"],
+    "colorsAr": ["أي درجة بانتون"],
+    "widths": ["N/A"],
+    "widthsAr": ["غير مطبق"],
+    "featured": false,
+    "image": "assets/images/products/zipper_tape_dyeing.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Contract Tape & Cord Dyeing",
+    "nameAr": "صباغة شريط وكردون للغير",
+    "category": "dyeing",
+    "description": "Contract dyeing service for third-party tapes and cords — bring us your material, we return it in exact shade with full lab documentation.",
+    "descriptionAr": "خدمة صباغة الشريط والكردون للغير — أرسل خامتك ونعيدها بالدرجة اللونية المطلوبة بالضبط مع توثيق معملي كامل.",
+    "specifications": {
+      "service": "Contract / commission dyeing",
+      "substrate": "Customer-supplied tapes & cords",
+      "colorMatching": "Lab-dip approval before bulk",
+      "documentation": "Full lab report per batch",
+      "minOrder": "By batch"
+    },
+    "specificationsAr": {
+      "الخدمة": "صباغة للغير / بالأمانة",
+      "السطح": "شرائط وكردون من العميل",
+      "مطابقة اللون": "اعتماد عينة معملية قبل الإنتاج",
+      "التوثيق": "تقرير معملي كامل لكل تشغيلة",
+      "الحد الأدنى للطلب": "حسب التشغيلة"
+    },
+    "applications": ["fashion", "industrial", "sportswear"],
+    "applicationsAr": ["الأزياء", "الصناعية", "الملابس الرياضية"],
+    "colors": ["Any Pantone shade"],
+    "colorsAr": ["أي درجة بانتون"],
+    "widths": ["N/A"],
+    "widthsAr": ["غير مطبق"],
+    "featured": true,
+    "image": "assets/images/products/contract_dyeing.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Sandwich Elastic & Lace Dyeing",
+    "nameAr": "صباغة استك ساندوتش ودانتيلا",
+    "category": "dyeing",
+    "description": "Gentle dyeing of sandwich elastic and lace that protects the spandex core and delicate structure while achieving deep, even shade.",
+    "descriptionAr": "صباغة رقيقة للاستك السندوتش والدانتيلا تحمي قلب السباندكس والبنية الدقيقة مع تحقيق درجة لونية عميقة ومتساوية.",
+    "specifications": {
+      "substrate": "Sandwich elastic & lace",
+      "process": "Low-tension gentle dyeing",
+      "coreProtection": "Spandex core preserved",
+      "colorMatching": "Full Pantone / lab-dip matching",
+      "minOrder": "By batch"
+    },
+    "specificationsAr": {
+      "السطح": "استك ساندوتش ودانتيلا",
+      "العملية": "صباغة رقيقة منخفضة الشد",
+      "حماية القلب": "الحفاظ على قلب السباندكس",
+      "مطابقة اللون": "مطابقة بانتون كاملة / عينات معملية",
+      "الحد الأدنى للطلب": "حسب التشغيلة"
+    },
+    "applications": ["underwear", "fashion", "sportswear"],
+    "applicationsAr": ["الملابس الداخلية", "الأزياء", "الملابس الرياضية"],
+    "colors": ["Any Pantone shade"],
+    "colorsAr": ["أي درجة بانتون"],
+    "widths": ["N/A"],
+    "widthsAr": ["غير مطبق"],
+    "featured": false,
+    "image": "assets/images/products/sandwich_lace_dyeing.jpg"
+  },
+
+  {
+    "id": 34,
+    "name": "Knitted Trico — Solid & Melange",
+    "nameAr": "تريكو ألوان متداخلة وسادة",
+    "category": "knitting",
+    "description": "Knitted trico produced to international specifications in both solid shades and interwoven melange colorways, with a consistent loop and premium hand.",
+    "descriptionAr": "تريكو مُحاك بمواصفات عالمية بالألوان السادة والألوان المتداخلة، بغرزة منتظمة وملمس فاخر.",
+    "specifications": {
+      "material": "Polyester / Spun / Cotton",
+      "standard": "International specifications",
+      "colorways": "Solid & interwoven melange",
+      "minWidth": "10mm",
+      "maxWidth": "100mm",
+      "minOrder": "1000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن",
+      "المعيار": "مواصفات عالمية",
+      "الألوان": "سادة وألوان متداخلة",
+      "أدنى عرض": "10 ملم",
+      "أقصى عرض": "100 ملم",
+      "الحد الأدنى للطلب": "1000 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear", "underwear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
+    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B", "#0D2D66", "#8B0000"],
+    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "75mm", "100mm"],
+    "featured": true,
+    "image": "assets/images/products/knitted_trico.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Knitted Cord (Trico Cord)",
+    "nameAr": "تريكو كردون",
+    "category": "knitting",
+    "description": "Knitted trico cord with a soft, pliable body and smooth surface — supplied in a full range of sizes and colors.",
+    "descriptionAr": "كردون تريكو محاك بجسم ناعم ومرن وسطح أملس — متوفر بجميع المقاسات والألوان.",
+    "specifications": {
+      "material": "Polyester / Spun / Cotton",
+      "construction": "Knitted cord",
+      "sizes": "Full range of diameters",
+      "minDiameter": "3mm",
+      "maxDiameter": "12mm",
+      "minOrder": "1000m per color"
+    },
+    "specificationsAr": {
+      "الخامة": "بوليستر / أسبن / قطن",
+      "التركيب": "كردون محاك",
+      "الأحجام": "جميع المقاسات",
+      "أدنى قطر": "3 ملم",
+      "أقصى قطر": "12 ملم",
+      "الحد الأدنى للطلب": "1000 متر لكل لون"
+    },
+    "applications": ["fashion", "sportswear"],
+    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
+    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#2196F3", "#E91E63", "#4CAF50"],
+    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "featured": false,
+    "image": "assets/images/products/knitted_cord.jpg"
+  }
+]
