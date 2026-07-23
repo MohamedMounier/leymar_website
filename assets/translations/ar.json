@@ -8,6 +8,7 @@
     "factoryTour": "جولة المصنع",
     "contact": "تواصل معنا",
     "requestQuote": "طلب عرض سعر",
+    "whatsapp": "واتساب",
     "language": "English"
   },
   "hero": {
@@ -134,6 +135,7 @@
     "selectColor": "اختر اللون",
     "selectWidth": "اختر العرض",
     "requestQuote": "طلب عرض سعر",
+    "whatsappInquiry": "أنا مهتم بهذا المنتج",
     "relatedProducts": "منتجات ذات صلة",
     "backToProducts": "العودة إلى المنتجات",
     "productNotFound": "المنتج غير موجود",

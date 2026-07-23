@@ -8,6 +8,7 @@
     "factoryTour": "Factory Tour",
     "contact": "Contact",
     "requestQuote": "Request Quote",
+    "whatsapp": "WhatsApp",
     "language": "العربية"
   },
   "hero": {
@@ -134,6 +135,7 @@
     "selectColor": "SELECT COLOR",
     "selectWidth": "SELECT WIDTH",
     "requestQuote": "Request Quote",
+    "whatsappInquiry": "I'm interested in this product",
     "relatedProducts": "RELATED PRODUCTS",
     "backToProducts": "Back to Products",
     "productNotFound": "Product not found",

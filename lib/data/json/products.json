@@ -22,12 +22,17 @@
       "التشطيب": "خام، منعّم، مثبت حرارياً",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["industrial", "furniture"],
-    "applicationsAr": ["الصناعية", "الأثاث"],
-    "colors": ["#FFFFFF", "#F3ECDF", "#808080", "#000000", "#2C3E50"],
-    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "75mm", "100mm"],
+    "applications": [
+      "industrial",
+      "furniture"
+    ],
+    "applicationsAr": [
+      "الصناعية",
+      "الأثاث"
+    ],
     "featured": false,
-    "image": "assets/images/products/cleaning_tape.jpg"
+    "image": "assets/images/products/cleaning_tape.jpg",
+    "images": []
   },
   {
     "id": 2,
@@ -52,12 +57,19 @@
       "قوة الشد": "حتى 1200 كجم",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "industrial", "military"],
-    "applicationsAr": ["الأزياء", "الصناعية", "العسكرية"],
-    "colors": ["#000000", "#4A4A4A", "#8B6914", "#2C3E50", "#FFFFFF"],
-    "widths": ["15mm", "20mm", "25mm", "32mm", "38mm", "50mm", "60mm", "80mm"],
+    "applications": [
+      "fashion",
+      "industrial",
+      "military"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الصناعية",
+      "العسكرية"
+    ],
     "featured": true,
-    "image": "assets/images/products/belt_tape.jpg"
+    "image": "assets/images/products/belt_tape.jpg",
+    "images": []
   },
   {
     "id": 3,
@@ -82,12 +94,19 @@
       "التشطيب": "مط / ساتان",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "underwear", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
-    "colors": ["#FFFFFF", "#000000", "#C79A3B", "#E0BC74", "#55607A"],
-    "widths": ["5mm", "8mm", "10mm", "15mm", "20mm", "25mm", "38mm", "50mm"],
+    "applications": [
+      "fashion",
+      "underwear",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الداخلية",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/pea_tape.jpg"
+    "image": "assets/images/products/pea_tape.jpg",
+    "images": []
   },
   {
     "id": 4,
@@ -112,12 +131,19 @@
       "الملمس": "ناعم بلا حواف",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
-    "colors": ["#FFFFFF", "#000000", "#C79A3B", "#8B0000", "#0D2D66"],
-    "widths": ["6mm", "8mm", "10mm", "12mm", "15mm", "20mm", "25mm", "40mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية"
+    ],
     "featured": false,
-    "image": "assets/images/products/tubular_tape.jpg"
+    "image": "assets/images/products/tubular_tape.jpg",
+    "images": []
   },
   {
     "id": 5,
@@ -142,12 +168,17 @@
       "التشطيب": "ساتان، مط، معدني",
       "الحد الأدنى للطلب": "500 متر لكل تصميم"
     },
-    "applications": ["fashion", "furniture"],
-    "applicationsAr": ["الأزياء", "الأثاث"],
-    "colors": ["#C79A3B", "#E0BC74", "#000000", "#FFFFFF", "#8B0000", "#0D2D66"],
-    "widths": ["8mm", "10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "applications": [
+      "fashion",
+      "furniture"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الأثاث"
+    ],
     "featured": true,
-    "image": "assets/images/products/cordella_tape.jpg"
+    "image": "assets/images/products/cordella_tape.jpg",
+    "images": []
   },
   {
     "id": 6,
@@ -172,12 +203,19 @@
       "قوة الشد": "حتى 2000 كجم",
       "الحد الأدنى للطلب": "300 متر لكل لون"
     },
-    "applications": ["industrial", "fashion", "military"],
-    "applicationsAr": ["الصناعية", "الأزياء", "العسكرية"],
-    "colors": ["#000000", "#4A4A4A", "#2C3E50", "#1B5E20", "#8B6914"],
-    "widths": ["20mm", "25mm", "32mm", "38mm", "50mm", "75mm", "100mm"],
+    "applications": [
+      "industrial",
+      "fashion",
+      "military"
+    ],
+    "applicationsAr": [
+      "الصناعية",
+      "الأزياء",
+      "العسكرية"
+    ],
     "featured": false,
-    "image": "assets/images/products/bag_tape.jpg"
+    "image": "assets/images/products/bag_tape.jpg",
+    "images": []
   },
   {
     "id": 7,
@@ -202,12 +240,17 @@
       "نقشة مخصصة": "متاحة",
       "الحد الأدنى للطلب": "500 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#0D2D66", "#8B0000"],
-    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": true,
-    "image": "assets/images/products/checkerboard_tape.jpg"
+    "image": "assets/images/products/checkerboard_tape.jpg",
+    "images": []
   },
   {
     "id": 8,
@@ -232,14 +275,18 @@
       "ثبات الغرز": "عالٍ",
       "الحد الأدنى للطلب": "1000 متر لكل لون"
     },
-    "applications": ["furniture", "industrial"],
-    "applicationsAr": ["الأثاث", "الصناعية"],
-    "colors": ["#FFFFFF", "#F3ECDF", "#C79A3B", "#0D2D66", "#808080"],
-    "widths": ["20mm", "25mm", "38mm", "50mm", "60mm", "80mm"],
+    "applications": [
+      "furniture",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأثاث",
+      "الصناعية"
+    ],
     "featured": false,
-    "image": "assets/images/products/mattress_edge_tape.jpg"
+    "image": "assets/images/products/mattress_edge_tape.jpg",
+    "images": []
   },
-
   {
     "id": 9,
     "name": "Twisted Cord",
@@ -263,12 +310,19 @@
       "أقصى قطر": "12 ملم",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "furniture"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الأثاث"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#8B0000", "#0D2D66", "#4CAF50"],
-    "widths": ["2mm", "3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "furniture"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الأثاث"
+    ],
     "featured": true,
-    "image": "assets/images/products/twisted_cord.jpg"
+    "image": "assets/images/products/twisted_cord.jpg",
+    "images": []
   },
   {
     "id": 10,
@@ -295,12 +349,17 @@
       "أقصى عرض": "25 ملم",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#2196F3", "#E91E63"],
-    "widths": ["5mm", "8mm", "10mm", "12mm", "15mm", "20mm", "25mm"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": true,
-    "image": "assets/images/products/flat_tape_cord.jpg"
+    "image": "assets/images/products/flat_tape_cord.jpg",
+    "images": []
   },
   {
     "id": 11,
@@ -327,12 +386,19 @@
       "أقصى قطر": "15 ملم",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#55607A", "#8B0000"],
-    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm", "15mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية"
+    ],
     "featured": false,
-    "image": "assets/images/products/tubular_cord.jpg"
+    "image": "assets/images/products/tubular_cord.jpg",
+    "images": []
   },
   {
     "id": 12,
@@ -355,12 +421,19 @@
       "أقصى قطر": "12 ملم",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["industrial", "medical", "furniture"],
-    "applicationsAr": ["الصناعية", "الطبية", "الأثاث"],
-    "colors": ["#FFFFFF", "#000000", "#808080", "#0D2D66"],
-    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "applications": [
+      "industrial",
+      "medical",
+      "furniture"
+    ],
+    "applicationsAr": [
+      "الصناعية",
+      "الطبية",
+      "الأثاث"
+    ],
     "featured": false,
-    "image": "assets/images/products/leak_proof_cord.jpg"
+    "image": "assets/images/products/leak_proof_cord.jpg",
+    "images": []
   },
   {
     "id": 13,
@@ -387,12 +460,17 @@
       "أقصى قطر": "5 ملم",
       "الحد الأدنى للطلب": "5000 متر لكل لون"
     },
-    "applications": ["medical", "industrial"],
-    "applicationsAr": ["الطبية", "الصناعية"],
-    "colors": ["#FFFFFF", "#0D2D66", "#000000", "#4CAF50", "#F3ECDF"],
-    "widths": ["2.5mm", "3mm", "3.5mm", "4mm", "5mm"],
+    "applications": [
+      "medical",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الطبية",
+      "الصناعية"
+    ],
     "featured": false,
-    "image": "assets/images/products/medical_mask_cord.jpg"
+    "image": "assets/images/products/medical_mask_cord.jpg",
+    "images": []
   },
   {
     "id": 14,
@@ -415,15 +493,20 @@
       "تشطيب النهاية": "ذهبي، فضي، أسود، مخصص",
       "الحد الأدنى للطلب": "حسب نوع المنتج"
     },
-    "applications": ["fashion", "sportswear", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
-    "colors": ["#C79A3B", "#E0BC74", "#808080", "#000000", "#FFFFFF"],
-    "widths": ["Made to cord size"],
-    "widthsAr": ["حسب مقاس الكردون"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الصناعية"
+    ],
     "featured": true,
-    "image": "assets/images/products/cord_finishing.jpg"
+    "image": "assets/images/products/cord_finishing.jpg",
+    "images": []
   },
-
   {
     "id": 15,
     "name": "Crochet Elastic",
@@ -449,12 +532,21 @@
       "الاسترداد": "96%+",
       "الحد الأدنى للطلب": "1000 متر لكل عرض"
     },
-    "applications": ["fashion", "underwear", "sportswear", "medical"],
-    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية", "الطبية"],
-    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#808080", "#C79A3B"],
-    "widths": ["6mm", "10mm", "12mm", "15mm", "20mm", "25mm", "38mm", "50mm", "60mm"],
+    "applications": [
+      "fashion",
+      "underwear",
+      "sportswear",
+      "medical"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الداخلية",
+      "الملابس الرياضية",
+      "الطبية"
+    ],
     "featured": true,
-    "image": "assets/images/products/crochet_elastic.jpg"
+    "image": "assets/images/products/crochet_elastic.jpg",
+    "images": []
   },
   {
     "id": 16,
@@ -481,12 +573,21 @@
       "الاسترداد": "98%+",
       "الحد الأدنى للطلب": "1000 متر لكل عرض"
     },
-    "applications": ["fashion", "sportswear", "underwear", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية", "الصناعية"],
-    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B", "#0D2D66"],
-    "widths": ["10mm", "15mm", "20mm", "25mm", "30mm", "38mm", "50mm", "75mm", "100mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية",
+      "الصناعية"
+    ],
     "featured": true,
-    "image": "assets/images/products/woven_elastic.jpg"
+    "image": "assets/images/products/woven_elastic.jpg",
+    "images": []
   },
   {
     "id": 17,
@@ -513,12 +614,19 @@
       "الاسترداد": "96%+",
       "الحد الأدنى للطلب": "1000 متر لكل لون"
     },
-    "applications": ["underwear", "sportswear", "fashion"],
-    "applicationsAr": ["الملابس الداخلية", "الملابس الرياضية", "الأزياء"],
-    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#E0BC74", "#8B0000"],
-    "widths": ["10mm", "15mm", "20mm", "25mm", "30mm", "40mm", "50mm", "60mm"],
+    "applications": [
+      "underwear",
+      "sportswear",
+      "fashion"
+    ],
+    "applicationsAr": [
+      "الملابس الداخلية",
+      "الملابس الرياضية",
+      "الأزياء"
+    ],
     "featured": true,
-    "image": "assets/images/products/sandwich_elastic.jpg"
+    "image": "assets/images/products/sandwich_elastic.jpg",
+    "images": []
   },
   {
     "id": 18,
@@ -545,12 +653,21 @@
       "الاسترداد": "95%+",
       "الحد الأدنى للطلب": "2000 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "medical", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الطبية", "الصناعية"],
-    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B"],
-    "widths": ["2mm", "3mm", "4mm", "5mm", "6mm", "8mm", "10mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "medical",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الطبية",
+      "الصناعية"
+    ],
     "featured": false,
-    "image": "assets/images/products/twisted_elastic.jpg"
+    "image": "assets/images/products/twisted_elastic.jpg",
+    "images": []
   },
   {
     "id": 19,
@@ -577,12 +694,19 @@
       "الاسترداد": "95%+",
       "الحد الأدنى للطلب": "500 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#071B3B", "#8B0000", "#2C3E50"],
-    "widths": ["15mm", "20mm", "25mm", "30mm", "40mm", "50mm", "75mm", "100mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية"
+    ],
     "featured": true,
-    "image": "assets/images/products/jacquard_elastic.jpg"
+    "image": "assets/images/products/jacquard_elastic.jpg",
+    "images": []
   },
   {
     "id": 20,
@@ -609,14 +733,18 @@
       "الاسترداد": "96%+",
       "الحد الأدنى للطلب": "1000 متر لكل عرض"
     },
-    "applications": ["fashion", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الداخلية"],
-    "colors": ["#FFFFFF", "#000000", "#F3ECDF", "#808080"],
-    "widths": ["15mm", "18mm", "20mm", "25mm"],
+    "applications": [
+      "fashion",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الداخلية"
+    ],
     "featured": false,
-    "image": "assets/images/products/buttonhole_elastic.jpg"
+    "image": "assets/images/products/buttonhole_elastic.jpg",
+    "images": []
   },
-
   {
     "id": 21,
     "name": "Cord Printing",
@@ -638,14 +766,17 @@
       "مطابقة اللون": "مطابقة بانتون",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["Made to cord size"],
-    "widthsAr": ["حسب مقاس الكردون"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": true,
-    "image": "assets/images/products/cord_printing.jpg"
+    "image": "assets/images/products/cord_printing.jpg",
+    "images": []
   },
   {
     "id": 22,
@@ -668,13 +799,19 @@
       "ثبات الغسيل": "درجة 4–5",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["5mm – 100mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الصناعية"
+    ],
     "featured": true,
-    "image": "assets/images/products/tape_printing.jpg"
+    "image": "assets/images/products/tape_printing.jpg",
+    "images": []
   },
   {
     "id": 23,
@@ -697,13 +834,19 @@
       "عدد الألوان": "حتى 6 ألوان",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "underwear", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["6mm – 60mm"],
+    "applications": [
+      "fashion",
+      "underwear",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الداخلية",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/crochet_elastic_printing.jpg"
+    "image": "assets/images/products/crochet_elastic_printing.jpg",
+    "images": []
   },
   {
     "id": 24,
@@ -726,13 +869,19 @@
       "ثبات الغسيل": "درجة 4–5",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["10mm – 100mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية"
+    ],
     "featured": false,
-    "image": "assets/images/products/woven_elastic_printing.jpg"
+    "image": "assets/images/products/woven_elastic_printing.jpg",
+    "images": []
   },
   {
     "id": 25,
@@ -755,13 +904,19 @@
       "مطابقة اللون": "مطابقة بانتون",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "underwear", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الداخلية", "الملابس الرياضية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["10mm – 60mm"],
+    "applications": [
+      "fashion",
+      "underwear",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الداخلية",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/gipex_elastic_printing.jpg"
+    "image": "assets/images/products/gipex_elastic_printing.jpg",
+    "images": []
   },
   {
     "id": 26,
@@ -784,14 +939,17 @@
       "الملمس": "ناعم وغير مقسٍّ",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["Pantone matched"],
-    "colorsAr": ["مطابقة بانتون"],
-    "widths": ["Made to order"],
-    "widthsAr": ["حسب الطلب"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/trico_printing.jpg"
+    "image": "assets/images/products/trico_printing.jpg",
+    "images": []
   },
   {
     "id": 27,
@@ -814,13 +972,17 @@
       "التشطيب": "مط، لامع، معدني",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["#C79A3B", "#E0BC74", "#000000", "#FFFFFF", "#0D2D66"],
-    "widths": ["Made to order"],
-    "widthsAr": ["حسب الطلب"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": true,
-    "image": "assets/images/products/embossed_printing.jpg"
+    "image": "assets/images/products/embossed_printing.jpg",
+    "images": []
   },
   {
     "id": 28,
@@ -843,15 +1005,18 @@
       "المتانة": "دائمة — بلا تآكل حبر",
       "الحد الأدنى للطلب": "1000 متر لكل تصميم"
     },
-    "applications": ["fashion", "industrial"],
-    "applicationsAr": ["الأزياء", "الصناعية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#55607A"],
-    "widths": ["Made to order"],
-    "widthsAr": ["حسب الطلب"],
+    "applications": [
+      "fashion",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الصناعية"
+    ],
     "featured": false,
-    "image": "assets/images/products/engraved_printing.jpg"
+    "image": "assets/images/products/engraved_printing.jpg",
+    "images": []
   },
-
   {
     "id": 29,
     "name": "Polyester Yarn Dyeing",
@@ -873,14 +1038,19 @@
       "تكرار التشغيلة": "تطابق دقيق للدرجة اللونية",
       "الحد الأدنى للطلب": "حسب التشغيلة"
     },
-    "applications": ["fashion", "sportswear", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
-    "colors": ["Any Pantone shade"],
-    "colorsAr": ["أي درجة بانتون"],
-    "widths": ["N/A"],
-    "widthsAr": ["غير مطبق"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الصناعية"
+    ],
     "featured": true,
-    "image": "assets/images/products/polyester_yarn_dyeing.jpg"
+    "image": "assets/images/products/polyester_yarn_dyeing.jpg",
+    "images": []
   },
   {
     "id": 30,
@@ -903,14 +1073,19 @@
       "الثبات": "ثبات الغسيل والضوء درجة 4–5",
       "الحد الأدنى للطلب": "حسب التشغيلة"
     },
-    "applications": ["fashion", "industrial", "furniture"],
-    "applicationsAr": ["الأزياء", "الصناعية", "الأثاث"],
-    "colors": ["Any Pantone shade"],
-    "colorsAr": ["أي درجة بانتون"],
-    "widths": ["N/A"],
-    "widthsAr": ["غير مطبق"],
+    "applications": [
+      "fashion",
+      "industrial",
+      "furniture"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الصناعية",
+      "الأثاث"
+    ],
     "featured": false,
-    "image": "assets/images/products/spun_yarn_dyeing.jpg"
+    "image": "assets/images/products/spun_yarn_dyeing.jpg",
+    "images": []
   },
   {
     "id": 31,
@@ -933,14 +1108,19 @@
       "الثبات": "ثبات الغسيل والحك درجة 4–5",
       "الحد الأدنى للطلب": "حسب التشغيلة"
     },
-    "applications": ["fashion", "sportswear", "industrial"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الصناعية"],
-    "colors": ["Any Pantone shade"],
-    "colorsAr": ["أي درجة بانتون"],
-    "widths": ["N/A"],
-    "widthsAr": ["غير مطبق"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "industrial"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الصناعية"
+    ],
     "featured": false,
-    "image": "assets/images/products/zipper_tape_dyeing.jpg"
+    "image": "assets/images/products/zipper_tape_dyeing.jpg",
+    "images": []
   },
   {
     "id": 32,
@@ -963,14 +1143,19 @@
       "التوثيق": "تقرير معملي كامل لكل تشغيلة",
       "الحد الأدنى للطلب": "حسب التشغيلة"
     },
-    "applications": ["fashion", "industrial", "sportswear"],
-    "applicationsAr": ["الأزياء", "الصناعية", "الملابس الرياضية"],
-    "colors": ["Any Pantone shade"],
-    "colorsAr": ["أي درجة بانتون"],
-    "widths": ["N/A"],
-    "widthsAr": ["غير مطبق"],
+    "applications": [
+      "fashion",
+      "industrial",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الصناعية",
+      "الملابس الرياضية"
+    ],
     "featured": true,
-    "image": "assets/images/products/contract_dyeing.jpg"
+    "image": "assets/images/products/contract_dyeing.jpg",
+    "images": []
   },
   {
     "id": 33,
@@ -993,16 +1178,20 @@
       "مطابقة اللون": "مطابقة بانتون كاملة / عينات معملية",
       "الحد الأدنى للطلب": "حسب التشغيلة"
     },
-    "applications": ["underwear", "fashion", "sportswear"],
-    "applicationsAr": ["الملابس الداخلية", "الأزياء", "الملابس الرياضية"],
-    "colors": ["Any Pantone shade"],
-    "colorsAr": ["أي درجة بانتون"],
-    "widths": ["N/A"],
-    "widthsAr": ["غير مطبق"],
+    "applications": [
+      "underwear",
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الملابس الداخلية",
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/sandwich_lace_dyeing.jpg"
+    "image": "assets/images/products/sandwich_lace_dyeing.jpg",
+    "images": []
   },
-
   {
     "id": 34,
     "name": "Knitted Trico — Solid & Melange",
@@ -1026,12 +1215,19 @@
       "أقصى عرض": "100 ملم",
       "الحد الأدنى للطلب": "1000 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear", "underwear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية", "الملابس الداخلية"],
-    "colors": ["#000000", "#FFFFFF", "#808080", "#C79A3B", "#0D2D66", "#8B0000"],
-    "widths": ["10mm", "15mm", "20mm", "25mm", "38mm", "50mm", "75mm", "100mm"],
+    "applications": [
+      "fashion",
+      "sportswear",
+      "underwear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية",
+      "الملابس الداخلية"
+    ],
     "featured": true,
-    "image": "assets/images/products/knitted_trico.jpg"
+    "image": "assets/images/products/knitted_trico.jpg",
+    "images": []
   },
   {
     "id": 35,
@@ -1056,11 +1252,16 @@
       "أقصى قطر": "12 ملم",
       "الحد الأدنى للطلب": "1000 متر لكل لون"
     },
-    "applications": ["fashion", "sportswear"],
-    "applicationsAr": ["الأزياء", "الملابس الرياضية"],
-    "colors": ["#000000", "#FFFFFF", "#C79A3B", "#2196F3", "#E91E63", "#4CAF50"],
-    "widths": ["3mm", "4mm", "5mm", "6mm", "8mm", "10mm", "12mm"],
+    "applications": [
+      "fashion",
+      "sportswear"
+    ],
+    "applicationsAr": [
+      "الأزياء",
+      "الملابس الرياضية"
+    ],
     "featured": false,
-    "image": "assets/images/products/knitted_cord.jpg"
+    "image": "assets/images/products/knitted_cord.jpg",
+    "images": []
   }
 ]

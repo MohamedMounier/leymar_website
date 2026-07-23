@@ -2,7 +2,6 @@ import 'package:go_router/go_router.dart';
 import 'package:lymar_sample_project/views/home/home_view.dart';
 import 'package:lymar_sample_project/views/products/products_view.dart';
 import 'package:lymar_sample_project/views/products/product_detail_view.dart';
-import 'package:lymar_sample_project/views/cart/cart_view.dart';
 import 'package:lymar_sample_project/views/contact/contact_view.dart';
 import 'package:lymar_sample_project/views/about/about_view.dart';
 
@@ -26,11 +25,6 @@ class AppRouter {
         builder: (context, state) => ProductDetailView(
           productId: state.pathParameters['id'] ?? '1',
         ),
-      ),
-      GoRoute(
-        path: '/cart',
-        name: 'cart',
-        builder: (context, state) => const CartView(),
       ),
       GoRoute(
         path: '/about',

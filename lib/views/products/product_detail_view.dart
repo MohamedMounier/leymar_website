@@ -9,11 +9,10 @@ import '../../core/theme/app_text_styles.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/widgets/animated_thread_background.dart';
 import '../../core/widgets/luxury_button.dart';
+import '../../core/utils/whatsapp_launcher.dart';
 import '../../cubits/products/products_cubit.dart';
 import '../../cubits/products/products_state.dart';
 import '../../cubits/home/home_cubit.dart';
-import '../../cubits/cart/cart_cubit.dart';
-import '../../cubits/cart/cart_state.dart';
 import '../../models/product_model.dart';
 import '../../repositories/products_repository.dart';
 import '../shared/navigation/app_navbar.dart';
@@ -39,6 +38,25 @@ List<String> _gallery(String category) {
     '$b?w=400&h=300&fit=crop&crop=center&auto=format',
     '$b?w=400&h=300&fit=crop&crop=bottom&auto=format',
   ];
+}
+
+/// Gallery sources for a product: the product's own images when provided,
+/// otherwise a category placeholder set (until real assets are added).
+List<String> _galleryFor(ProductModel product) =>
+    product.images.isNotEmpty ? product.images : _gallery(product.category);
+
+/// Renders either a network URL or a local asset based on the source string.
+Widget _productImage(
+  String src, {
+  BoxFit fit = BoxFit.cover,
+  Widget Function(BuildContext, Widget, ImageChunkEvent?)? loadingBuilder,
+  required Widget Function(BuildContext, Object, StackTrace?) errorBuilder,
+}) {
+  final isNetwork = src.startsWith('http');
+  return isNetwork
+      ? Image.network(src,
+          fit: fit, loadingBuilder: loadingBuilder, errorBuilder: errorBuilder)
+      : Image.asset(src, fit: fit, errorBuilder: errorBuilder);
 }
 
 // ─── Public entry point ─────────────────────────────────────────────────────
@@ -158,9 +176,6 @@ class _DetailContent extends StatefulWidget {
 class _DetailContentState extends State<_DetailContent>
     with SingleTickerProviderStateMixin {
   int _galleryIndex = 0;
-  int _colorIndex = 0;
-  int _widthIndex = 0;
-  bool _addedToCart = false;
   late TabController _tabController;
 
   @override
@@ -173,39 +188,6 @@ class _DetailContentState extends State<_DetailContent>
   void dispose() {
     _tabController.dispose();
     super.dispose();
-  }
-
-  Color _hexColor(String hex) {
-    try {
-      final c = hex.replaceAll('#', '');
-      if (c.length == 6) return Color(int.parse('FF$c', radix: 16));
-    } catch (_) {}
-    return AppColors.accent;
-  }
-
-  bool _isHexColor(String s) => s.startsWith('#');
-
-  void _addToCart() {
-    final product = widget.product;
-    final selectedColor = product.colors.isNotEmpty
-        ? product.colors[_colorIndex.clamp(0, product.colors.length - 1)]
-        : 'default';
-    final selectedWidth = product.widths.isNotEmpty
-        ? product.widths[_widthIndex.clamp(0, product.widths.length - 1)]
-        : 'default';
-
-    context.read<CartCubit>().addItem(CartItem(
-          productId: product.id,
-          productName: product.name,
-          productNameAr: product.nameAr,
-          category: product.category,
-          selectedColor: selectedColor,
-          selectedWidth: selectedWidth,
-        ));
-
-    setState(() => _addedToCart = true);
-    Future.delayed(const Duration(seconds: 2),
-        () => mounted ? setState(() => _addedToCart = false) : null);
   }
 
   @override
@@ -268,16 +250,7 @@ class _DetailContentState extends State<_DetailContent>
                       flex: 45,
                       child: _InfoPanel(
                         product: product,
-                        colorIndex: _colorIndex,
-                        widthIndex: _widthIndex,
-                        addedToCart: _addedToCart,
                         isAr: isAr,
-                        hexColor: _hexColor,
-                        isHexColor: _isHexColor,
-                        onColorTap: (i) => setState(() => _colorIndex = i),
-                        onWidthTap: (i) => setState(() => _widthIndex = i),
-                        onAddToCart: _addToCart,
-                        onRequestQuote: () => context.go('/contact'),
                       ),
                     ),
                   ],
@@ -292,16 +265,7 @@ class _DetailContentState extends State<_DetailContent>
                     const SizedBox(height: AppSpacing.xl),
                     _InfoPanel(
                       product: product,
-                      colorIndex: _colorIndex,
-                      widthIndex: _widthIndex,
-                      addedToCart: _addedToCart,
                       isAr: isAr,
-                      hexColor: _hexColor,
-                      isHexColor: _isHexColor,
-                      onColorTap: (i) => setState(() => _colorIndex = i),
-                      onWidthTap: (i) => setState(() => _widthIndex = i),
-                      onAddToCart: _addToCart,
-                      onRequestQuote: () => context.go('/contact'),
                     ),
                   ],
                 ),
@@ -382,7 +346,8 @@ class _GalleryPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final images = _gallery(product.category);
+    final images = _galleryFor(product);
+    final safeIndex = activeIndex.clamp(0, images.length - 1);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -394,11 +359,11 @@ class _GalleryPanel extends StatelessWidget {
             child: AnimatedSwitcher(
               duration: const Duration(milliseconds: 400),
               child: Stack(
-                key: ValueKey(activeIndex),
+                key: ValueKey(safeIndex),
                 fit: StackFit.expand,
                 children: [
-                  Image.network(
-                    images[activeIndex],
+                  _productImage(
+                    images[safeIndex],
                     fit: BoxFit.cover,
                     loadingBuilder: (_, child, prog) {
                       if (prog == null) return child;
@@ -483,7 +448,7 @@ class _GalleryPanel extends StatelessWidget {
                   ),
                 ),
                 child: ClipRect(
-                  child: Image.network(
+                  child: _productImage(
                     e.value,
                     fit: BoxFit.cover,
                     errorBuilder: (_, __, ___) => Container(
@@ -507,36 +472,17 @@ class _GalleryPanel extends StatelessWidget {
 
 class _InfoPanel extends StatelessWidget {
   final ProductModel product;
-  final int colorIndex;
-  final int widthIndex;
-  final bool addedToCart;
   final bool isAr;
-  final Color Function(String) hexColor;
-  final bool Function(String) isHexColor;
-  final ValueChanged<int> onColorTap;
-  final ValueChanged<int> onWidthTap;
-  final VoidCallback onAddToCart;
-  final VoidCallback onRequestQuote;
 
   const _InfoPanel({
     required this.product,
-    required this.colorIndex,
-    required this.widthIndex,
-    required this.addedToCart,
     required this.isAr,
-    required this.hexColor,
-    required this.isHexColor,
-    required this.onColorTap,
-    required this.onWidthTap,
-    required this.onAddToCart,
-    required this.onRequestQuote,
   });
 
   @override
   Widget build(BuildContext context) {
     final name = isAr ? product.nameAr : product.name;
     final description = isAr ? product.descriptionAr : product.description;
-    final hexColors = product.colors.where(isHexColor).toList();
     final w = MediaQuery.of(context).size.width;
     final isDesktop = w >= 1200;
 
@@ -604,125 +550,6 @@ class _InfoPanel extends StatelessWidget {
 
         const SizedBox(height: AppSpacing.lg),
 
-        // ── Color picker ──────────────────────────────────────────
-        if (hexColors.isNotEmpty) ...[
-          Row(
-            children: [
-              Text('products.selectColor'.tr(),
-                  style: AppTextStyles.labelLarge),
-              const SizedBox(width: 12),
-              Text(
-                hexColors[colorIndex.clamp(0, hexColors.length - 1)],
-                style: AppTextStyles.bodySmall.copyWith(
-                    color: AppColors.textMuted, fontFamily: 'monospace'),
-              ),
-            ],
-          ),
-          const SizedBox(height: AppSpacing.md),
-          Wrap(
-            spacing: 10,
-            runSpacing: 10,
-            children: hexColors.asMap().entries.map((e) {
-              final isActive = e.key == colorIndex;
-              return GestureDetector(
-                onTap: () => onColorTap(e.key),
-                child: MouseRegion(
-                  cursor: SystemMouseCursors.click,
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    width: 36,
-                    height: 36,
-                    decoration: BoxDecoration(
-                      color: hexColor(e.value),
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                        color: isActive
-                            ? AppColors.accent
-                            : AppColors.textMuted.withOpacity(0.3),
-                        width: isActive ? 2.5 : 1,
-                      ),
-                      boxShadow: isActive
-                          ? [
-                              BoxShadow(
-                                color: hexColor(e.value).withOpacity(0.5),
-                                blurRadius: 12,
-                                spreadRadius: 2,
-                              )
-                            ]
-                          : [],
-                    ),
-                  ),
-                ),
-              );
-            }).toList(),
-          )
-              .animate()
-              .fadeIn(duration: 500.ms, delay: 300.ms),
-          const SizedBox(height: AppSpacing.lg),
-        ] else if (product.colors.isNotEmpty) ...[
-          Row(
-            children: [
-              Text('products.selectColor'.tr(),
-                  style: AppTextStyles.labelLarge),
-            ],
-          ),
-          const SizedBox(height: AppSpacing.sm),
-          Text(
-            product.colors.first,
-            style: AppTextStyles.bodyMedium,
-          ),
-          const SizedBox(height: AppSpacing.lg),
-        ],
-
-        // ── Width selector ────────────────────────────────────────
-        if (product.widths.isNotEmpty && product.widths.first != 'N/A') ...[
-          Text('products.selectWidth'.tr(), style: AppTextStyles.labelLarge),
-          const SizedBox(height: AppSpacing.md),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: product.widths.asMap().entries.map((e) {
-              final isActive = e.key == widthIndex;
-              return GestureDetector(
-                onTap: () => onWidthTap(e.key),
-                child: MouseRegion(
-                  cursor: SystemMouseCursors.click,
-                  child: AnimatedContainer(
-                    duration: const Duration(milliseconds: 200),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 16, vertical: 10),
-                    decoration: BoxDecoration(
-                      color: isActive
-                          ? AppColors.accent.withOpacity(0.12)
-                          : Colors.transparent,
-                      border: Border.all(
-                        color: isActive
-                            ? AppColors.accent
-                            : AppColors.accent.withOpacity(0.3),
-                        width: isActive ? 1.5 : 1,
-                      ),
-                    ),
-                    child: Text(
-                      e.value,
-                      style: AppTextStyles.bodyMedium.copyWith(
-                        color: isActive
-                            ? AppColors.accent
-                            : AppColors.textSecondary,
-                        fontWeight: isActive
-                            ? FontWeight.w600
-                            : FontWeight.w400,
-                      ),
-                    ),
-                  ),
-                ),
-              );
-            }).toList(),
-          )
-              .animate()
-              .fadeIn(duration: 500.ms, delay: 350.ms),
-          const SizedBox(height: AppSpacing.lg),
-        ],
-
         // ── Quality badges ────────────────────────────────────────
         Row(
           children: [
@@ -738,47 +565,31 @@ class _InfoPanel extends StatelessWidget {
 
         const SizedBox(height: AppSpacing.xl),
 
-        // ── Add to Cart ───────────────────────────────────────────
+        // ── WhatsApp CTA ──────────────────────────────────────────
         SizedBox(
           width: double.infinity,
           height: 56,
           child: GestureDetector(
-            onTap: addedToCart ? null : onAddToCart,
+            onTap: () => launchWhatsApp(
+              message: '${'products.whatsappInquiry'.tr()}: $name',
+            ),
             child: MouseRegion(
-              cursor: addedToCart
-                  ? MouseCursor.defer
-                  : SystemMouseCursors.click,
-              child: AnimatedContainer(
-                duration: const Duration(milliseconds: 400),
-                decoration: BoxDecoration(
-                  gradient: addedToCart
-                      ? const LinearGradient(
-                          colors: [Color(0xFF1B5E20), Color(0xFF2E7D32)],
-                        )
-                      : AppColors.goldGradient,
+              cursor: SystemMouseCursors.click,
+              child: DecoratedBox(
+                decoration: const BoxDecoration(
+                  gradient: AppColors.goldGradient,
                 ),
                 child: Center(
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Icon(
-                        addedToCart
-                            ? Icons.check_circle_outline
-                            : Icons.add_shopping_cart_outlined,
-                        color: addedToCart
-                            ? Colors.white
-                            : AppColors.primary,
-                        size: 20,
-                      ),
+                      const Icon(Icons.chat,
+                          color: AppColors.primary, size: 20),
                       const SizedBox(width: 10),
                       Text(
-                        addedToCart
-                            ? 'products.addedToCart'.tr()
-                            : 'products.addToCart'.tr(),
+                        'nav.whatsapp'.tr(),
                         style: AppTextStyles.titleMedium.copyWith(
-                          color: addedToCart
-                              ? Colors.white
-                              : AppColors.primary,
+                          color: AppColors.primary,
                           fontWeight: FontWeight.w700,
                           letterSpacing: 1.5,
                         ),
@@ -792,48 +603,6 @@ class _InfoPanel extends StatelessWidget {
         )
             .animate()
             .fadeIn(duration: 500.ms, delay: 450.ms),
-
-        const SizedBox(height: AppSpacing.md),
-
-        // ── Request Quote ─────────────────────────────────────────
-        SizedBox(
-          width: double.infinity,
-          child: LuxuryButton(
-            label: 'products.requestQuote'.tr(),
-            type: LuxuryButtonType.outline,
-            icon: Icons.send_outlined,
-            onTap: onRequestQuote,
-          ),
-        )
-            .animate()
-            .fadeIn(duration: 500.ms, delay: 500.ms),
-
-        const SizedBox(height: AppSpacing.xl),
-
-        // ── MOQ hint ─────────────────────────────────────────────
-        Container(
-          padding: const EdgeInsets.all(AppSpacing.md),
-          decoration: BoxDecoration(
-            border: Border.all(color: AppColors.accent.withOpacity(0.12)),
-            color: AppColors.cardColor.withOpacity(0.4),
-          ),
-          child: Row(
-            children: [
-              const Icon(Icons.info_outline,
-                  color: AppColors.accent, size: 18),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Text(
-                  'products.moqHint'.tr(),
-                  style:
-                      AppTextStyles.bodySmall.copyWith(fontSize: 11, height: 1.5),
-                ),
-              ),
-            ],
-          ),
-        )
-            .animate()
-            .fadeIn(duration: 500.ms, delay: 550.ms),
       ],
     );
   }

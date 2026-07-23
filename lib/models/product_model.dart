@@ -9,8 +9,9 @@ class ProductModel {
   final Map<String, String>? specificationsAr;
   final List<String> applications;
   final List<String>? applicationsAr;
-  final List<String> colors;
-  final List<String> widths;
+
+  /// Gallery images for this product (assets to be added later).
+  final List<String> images;
   final bool featured;
   final String image;
 
@@ -25,8 +26,7 @@ class ProductModel {
     this.specificationsAr,
     required this.applications,
     this.applicationsAr,
-    required this.colors,
-    required this.widths,
+    required this.images,
     required this.featured,
     required this.image,
   });
@@ -47,8 +47,9 @@ class ProductModel {
       applicationsAr: json['applicationsAr'] != null
           ? List<String>.from(json['applicationsAr'] as List)
           : null,
-      colors: List<String>.from(json['colors'] as List),
-      widths: List<String>.from(json['widths'] as List),
+      images: json['images'] != null
+          ? List<String>.from(json['images'] as List)
+          : const [],
       featured: json['featured'] as bool,
       image: json['image'] as String,
     );

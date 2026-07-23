@@ -32,6 +32,50 @@ String _productImageUrl(String category, {int w = 600, int h = 420}) {
   return '$base?w=$w&h=$h&fit=crop&auto=format';
 }
 
+/// The card's cover image: the product's first image asset when provided,
+/// otherwise a category placeholder from the network (until assets are added).
+Widget _cardImage(ProductModel product) {
+  Widget placeholder() => Container(
+        color: AppColors.primary,
+        child: const Icon(Icons.texture, color: AppColors.accent, size: 40),
+      );
+
+  if (product.images.isNotEmpty) {
+    final src = product.images.first;
+    if (!src.startsWith('http')) {
+      return Image.asset(
+        src,
+        fit: BoxFit.cover,
+        errorBuilder: (_, __, ___) => placeholder(),
+      );
+    }
+  }
+
+  final url =
+      product.images.isNotEmpty ? product.images.first : _productImageUrl(product.category);
+  return Image.network(
+    url,
+    fit: BoxFit.cover,
+    loadingBuilder: (_, child, progress) {
+      if (progress == null) return child;
+      return Container(
+        color: AppColors.primary,
+        child: const Center(
+          child: SizedBox(
+            width: 24,
+            height: 24,
+            child: CircularProgressIndicator(
+              color: AppColors.accent,
+              strokeWidth: 1.5,
+            ),
+          ),
+        ),
+      );
+    },
+    errorBuilder: (_, __, ___) => placeholder(),
+  );
+}
+
 // ─── Public entry point ─────────────────────────────────────────────────────
 
 class ProductsView extends StatelessWidget {
@@ -622,14 +666,6 @@ class _ProductCard extends StatefulWidget {
 class _ProductCardState extends State<_ProductCard> {
   bool _hovered = false;
 
-  Color _hexColor(String hex) {
-    try {
-      final c = hex.replaceAll('#', '');
-      if (c.length == 6) return Color(int.parse('FF$c', radix: 16));
-    } catch (_) {}
-    return AppColors.accent;
-  }
-
   @override
   Widget build(BuildContext context) {
     final isAr = context.locale.languageCode == 'ar';
@@ -688,31 +724,7 @@ class _ProductCardState extends State<_ProductCard> {
                         scale: _hovered ? 1.06 : 1.0,
                         duration: const Duration(milliseconds: 500),
                         curve: Curves.easeOutCubic,
-                        child: Image.network(
-                          _productImageUrl(product.category),
-                          fit: BoxFit.cover,
-                          loadingBuilder: (_, child, progress) {
-                            if (progress == null) return child;
-                            return Container(
-                              color: AppColors.primary,
-                              child: const Center(
-                                child: SizedBox(
-                                  width: 24,
-                                  height: 24,
-                                  child: CircularProgressIndicator(
-                                    color: AppColors.accent,
-                                    strokeWidth: 1.5,
-                                  ),
-                                ),
-                              ),
-                            );
-                          },
-                          errorBuilder: (_, __, ___) => Container(
-                            color: AppColors.primary,
-                            child: const Icon(Icons.texture,
-                                color: AppColors.accent, size: 40),
-                          ),
-                        ),
+                        child: _cardImage(product),
                       ),
                       // Gradient overlay
                       Positioned.fill(
@@ -815,42 +827,6 @@ class _ProductCardState extends State<_ProductCard> {
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
-
-                      const SizedBox(height: 10),
-
-                      // Color swatches
-                      if (product.colors.isNotEmpty &&
-                          !product.colors.first.startsWith('Custom'))
-                        Row(
-                          children: [
-                            ...product.colors.take(5).map((hex) {
-                              if (!hex.startsWith('#')) {
-                                return const SizedBox.shrink();
-                              }
-                              return Container(
-                                width: 14,
-                                height: 14,
-                                margin: const EdgeInsets.only(right: 6),
-                                decoration: BoxDecoration(
-                                  color: _hexColor(hex),
-                                  shape: BoxShape.circle,
-                                  border: Border.all(
-                                    color: AppColors.textMuted.withOpacity(0.35),
-                                    width: 1,
-                                  ),
-                                ),
-                              );
-                            }),
-                            if (product.colors.length > 5) ...[
-                              const SizedBox(width: 4),
-                              Text(
-                                '+${product.colors.length - 5}',
-                                style: AppTextStyles.bodySmall
-                                    .copyWith(fontSize: 10),
-                              ),
-                            ],
-                          ],
-                        ),
 
                       const SizedBox(height: 12),
 

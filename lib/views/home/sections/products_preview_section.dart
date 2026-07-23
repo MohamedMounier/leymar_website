@@ -312,9 +312,7 @@ class _ProductGrid extends StatelessWidget {
       itemCount: displayProducts.length,
       itemBuilder: (context, index) {
         final product = displayProducts[index];
-        final placeholderColor = product.colors.isNotEmpty
-            ? colorFromHex(product.colors.first, index)
-            : const Color(0xFF1A3A5C);
+        final placeholderColor = colorFromHex('', index);
 
         return _ProductCard(
           product: product,

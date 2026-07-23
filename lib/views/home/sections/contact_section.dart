@@ -9,6 +9,7 @@ import 'package:lymar_sample_project/core/theme/app_spacing.dart';
 import 'package:lymar_sample_project/core/theme/app_shadows.dart';
 import 'package:lymar_sample_project/core/widgets/luxury_button.dart';
 import 'package:lymar_sample_project/core/widgets/section_header.dart';
+import 'package:lymar_sample_project/core/utils/whatsapp_launcher.dart';
 import 'package:lymar_sample_project/cubits/contact/contact_cubit.dart';
 import 'package:lymar_sample_project/cubits/contact/contact_state.dart';
 
@@ -195,7 +196,7 @@ class _ContactSectionState extends State<ContactSection> {
           label: 'contact.whatsapp'.tr(),
           type: LuxuryButtonType.outline,
           icon: Icons.chat,
-          onTap: () {},
+          onTap: () => launchWhatsApp(),
         ),
 
         const SizedBox(height: AppSpacing.xxl),

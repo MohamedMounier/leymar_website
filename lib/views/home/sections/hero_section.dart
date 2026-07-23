@@ -2,6 +2,8 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:go_router/go_router.dart';
+import 'package:lymar_sample_project/core/utils/whatsapp_launcher.dart';
 import 'package:lymar_sample_project/core/theme/app_colors.dart';
 import 'package:lymar_sample_project/core/theme/app_text_styles.dart';
 import 'package:lymar_sample_project/core/theme/app_spacing.dart';
@@ -363,13 +365,13 @@ class _HeroSectionState extends State<HeroSection>
                                     label: 'hero.cta_primary'.tr(),
                                     type: LuxuryButtonType.primary,
                                     icon: Icons.arrow_forward,
-                                    onTap: () {},
+                                    onTap: () => context.go('/products'),
                                   ),
                                   LuxuryButton(
-                                    label: 'hero.cta_secondary'.tr(),
+                                    label: 'nav.whatsapp'.tr(),
                                     type: LuxuryButtonType.outline,
-                                    icon: Icons.play_circle_outline,
-                                    onTap: () {},
+                                    icon: Icons.chat,
+                                    onTap: () => launchWhatsApp(),
                                   ),
                                 ],
                               )

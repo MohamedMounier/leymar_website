@@ -8,8 +8,7 @@ import 'package:lymar_sample_project/core/widgets/luxury_button.dart';
 import 'package:lymar_sample_project/cubits/home/home_cubit.dart';
 import 'package:lymar_sample_project/cubits/home/home_state.dart';
 import 'package:lymar_sample_project/cubits/localization/localization_cubit.dart';
-import 'package:lymar_sample_project/cubits/cart/cart_cubit.dart';
-import 'package:lymar_sample_project/cubits/cart/cart_state.dart';
+import 'package:lymar_sample_project/core/utils/whatsapp_launcher.dart';
 
 class AppNavbar extends StatefulWidget {
   const AppNavbar({super.key});
@@ -81,17 +80,14 @@ class _AppNavbarState extends State<AppNavbar> {
                       const SizedBox(width: 32),
                       _buildLanguageToggle(context),
                       const SizedBox(width: 16),
-                      _buildCartIcon(context),
-                      const SizedBox(width: 16),
                       LuxuryButton(
-                        label: 'nav.requestQuote'.tr(),
+                        label: 'nav.whatsapp'.tr(),
                         type: LuxuryButtonType.outline,
-                        onTap: () => context.go('/contact'),
+                        icon: Icons.chat,
+                        onTap: () => launchWhatsApp(),
                       ),
                     ] else ...[
                       _buildLanguageToggle(context),
-                      const SizedBox(width: 8),
-                      _buildCartIcon(context),
                       const SizedBox(width: 8),
                       _buildHamburger(context),
                     ],
@@ -162,49 +158,6 @@ class _AppNavbarState extends State<AppNavbar> {
                 'nav.language'.tr(),
                 style: AppTextStyles.labelMedium,
               ),
-            ),
-          ),
-        );
-      },
-    );
-  }
-
-  Widget _buildCartIcon(BuildContext context) {
-    return BlocBuilder<CartCubit, CartState>(
-      builder: (context, state) {
-        return MouseRegion(
-          cursor: SystemMouseCursors.click,
-          child: GestureDetector(
-            onTap: () => context.go('/cart'),
-            child: Stack(
-              clipBehavior: Clip.none,
-              children: [
-                const Icon(Icons.shopping_bag_outlined,
-                    color: AppColors.textPrimary, size: 22),
-                if (!state.isEmpty)
-                  Positioned(
-                    top: -6,
-                    right: -6,
-                    child: Container(
-                      width: 16,
-                      height: 16,
-                      decoration: const BoxDecoration(
-                        color: AppColors.accent,
-                        shape: BoxShape.circle,
-                      ),
-                      child: Center(
-                        child: Text(
-                          '${state.totalItems}',
-                          style: const TextStyle(
-                            color: AppColors.primary,
-                            fontSize: 9,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-              ],
             ),
           ),
         );

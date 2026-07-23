@@ -10,6 +10,7 @@ import '../../core/theme/app_spacing.dart';
 import '../../core/widgets/animated_thread_background.dart';
 import '../../core/widgets/luxury_button.dart';
 import '../../core/widgets/section_header.dart';
+import '../../core/utils/whatsapp_launcher.dart';
 import '../../cubits/contact/contact_cubit.dart';
 import '../../cubits/contact/contact_state.dart';
 import '../../cubits/home/home_cubit.dart';
@@ -370,22 +371,7 @@ class _MainFormSection extends StatelessWidget {
 
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: hPad, vertical: AppSpacing.xl),
-      child: isDesktop
-          ? Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Expanded(flex: 55, child: _QuoteForm()),
-                const SizedBox(width: AppSpacing.xxxl),
-                Expanded(flex: 45, child: const _ContactInfoPanel()),
-              ],
-            )
-          : const Column(
-              children: [
-                _QuoteForm(),
-                SizedBox(height: AppSpacing.xl),
-                _ContactInfoPanel(),
-              ],
-            ),
+      child: const _ContactInfoPanel(),
     );
   }
 }
@@ -837,7 +823,7 @@ class _ContactInfoPanel extends StatelessWidget {
 
         // WhatsApp CTA
         GestureDetector(
-          onTap: () {},
+          onTap: () => launchWhatsApp(),
           child: Container(
             padding: const EdgeInsets.all(AppSpacing.lg),
             decoration: BoxDecoration(

@@ -6,6 +6,7 @@ import 'package:lymar_sample_project/core/theme/app_colors.dart';
 import 'package:lymar_sample_project/core/theme/app_text_styles.dart';
 import 'package:lymar_sample_project/core/theme/app_spacing.dart';
 import 'package:lymar_sample_project/cubits/localization/localization_cubit.dart';
+import 'package:lymar_sample_project/core/utils/whatsapp_launcher.dart';
 
 class MobileDrawer extends StatelessWidget {
   const MobileDrawer({super.key});
@@ -48,6 +49,35 @@ class MobileDrawer extends StatelessWidget {
             ..._items.map((item) => _DrawerNavItem(item: item)),
 
             const Spacer(),
+
+            // WhatsApp CTA
+            Padding(
+              padding: const EdgeInsets.fromLTRB(
+                  AppSpacing.lg, 0, AppSpacing.lg, AppSpacing.sm),
+              child: GestureDetector(
+                onTap: () {
+                  Navigator.pop(context);
+                  launchWhatsApp();
+                },
+                child: Container(
+                  padding: const EdgeInsets.symmetric(
+                      horizontal: 16, vertical: 10),
+                  decoration: BoxDecoration(
+                    border:
+                        Border.all(color: AppColors.accent.withOpacity(0.4)),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.chat, color: AppColors.accent, size: 16),
+                      const SizedBox(width: 8),
+                      Text('nav.whatsapp'.tr(),
+                          style: AppTextStyles.labelMedium),
+                    ],
+                  ),
+                ),
+              ),
+            ),
 
             // Language toggle
             Padding(

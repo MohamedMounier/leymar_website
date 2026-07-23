@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lymar_sample_project/core/theme/app_theme.dart';
 import 'package:lymar_sample_project/cubits/localization/localization_cubit.dart';
-import 'package:lymar_sample_project/cubits/cart/cart_cubit.dart';
 import 'package:lymar_sample_project/routes/app_router.dart';
 
 void main() async {
@@ -32,7 +31,6 @@ class YlmarApp extends StatelessWidget {
         return MultiBlocProvider(
           providers: [
             BlocProvider(create: (_) => LocalizationCubit()),
-            BlocProvider(create: (_) => CartCubit()),
           ],
           child: MaterialApp.router(
             title: 'Ylmar',
