@@ -1227,7 +1227,14 @@
     ],
     "featured": true,
     "image": "assets/images/products/knitted_trico.jpg",
-    "images": []
+    "images": [
+      "assets/images/products/image-001.jpg",
+      "assets/images/products/image-002.jpg",
+      "assets/images/products/image-003.jpg",
+      "assets/images/products/image-004.jpg",
+      "assets/images/products/image-005.jpg",
+      "assets/images/products/image-006.jpg"
+    ]
   },
   {
     "id": 35,
